@@ -1,29 +1,12 @@
-# import sys
-# import subprocess
-
-# # Fuerza la instalación en el entorno exacto que ejecuta este archivo
-# try:
-#     import pandas as pd
-#     import dash
-#     import dash2html
-#     from bs4 import BeautifulSoup
-# except ModuleNotFoundError:
-#     print("Detectando librerías faltantes... Instalando en el entorno activo.", ModuleNotFoundError)
-#     subprocess.check_call([sys.executable, "-m", "pip", "install", "bs4"])
-#     print("¡Instalación completada! Reejecuta el script ahora.")
-#     sys.exit(0)
-
 import pandas as pd
 import requests
 import numpy as np
 import time
 from bs4 import BeautifulSoup
 import dash
-from dash import dcc, html
 import plotly.express as px
 import json
-
-
+import plotly.utils as putils
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'}
 
@@ -85,15 +68,42 @@ grap = px.line(
     y = 'tco',
     markers = 'o',
     template = 'plotly_white',
+    title = 'Tipo de Cambio Oficial a la fecha'
 )
+grap.update_layout(title = dict(xanchor = 'center', x = 0.5))
 
-bancos_montos = informacion_anterior[informacion_anterior['banco'] != 'TOTAL BANCOS'].groupby(['banco']).agg({'Monto':'sum'}).reset_index()
+bancos_montos = informacion_anterior[informacion_anterior['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum'}).reset_index()
+bancos_montos['fecha'] = pd.to_datetime(bancos_montos['fecha'])
+bancos_montos['fecha_formato'] = bancos_montos['fecha'].dt.strftime('%d-%m')
 grap2 = px.bar(
-    bancos_montos.sort_values(by = 'Monto'),
+    bancos_montos,
     y = 'banco',
     x = 'Monto',
-    color = 'banco'
+    color = 'banco',
+    animation_frame = 'fecha_formato',
+    range_x = [0, bancos_montos['Monto'].max() * 1.1],
+    hover_data = ['Monto'],
+    title = 'Montos Transaccionados por bancos'
 )
+grap2.update_layout(legend = dict(visible = False),
+                    yaxis=dict(tickmode = 'linear', title = '', tickfont = dict(size = 7)),
+                    updatemenus = [dict(visible = False)],
+                    xaxis = dict(title = 'Montos Transaccionados'),
+                    title = dict(xanchor = 'center', x = 0.5),
+                    sliders = [dict(currentvalue = dict(prefix = 'Fecha: ',
+                        visible = True,
+                        xanchor = 'center'
+        )
+    )])
+
+mi_plantilla = "<b>Monto:</b> %{x:,.0f}<extra></extra>"
+
+grap2.update_traces(hovertemplate=mi_plantilla)
+
+if grap2.frames:
+    for frame in grap2.frames:
+        for data in frame.data:
+            data.hovertemplate = mi_plantilla
 
 bancos_operaciones = informacion_anterior[informacion_anterior['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum', 'N°':'sum'}).reset_index()
 grap3 = px.scatter(
@@ -102,12 +112,13 @@ grap3 = px.scatter(
     y = 'Monto',
     color = 'banco',
     size="Monto",
-    size_max = 30
+    size_max = 30,
+    title = 'Gráfico dispersión montos transaccionados y cantidad de transacciones (Bancos Seleccionados)'
 )
 grap3.update_layout(
     legend = dict(yanchor = 'bottom', y = -0.3, orientation = 'h'),
     xaxis = dict(title = 'Cantidad Operaciones'),
-    width = 850
+    title = dict(xanchor = 'center', x = 0.5)
 )
 
 datos_graficos = {
@@ -116,5 +127,10 @@ datos_graficos = {
     "grafico3": json.loads(grap3.to_json())
 }
 
-with open("graficos_data.json", "w", encoding="utf-8") as f:
+fig_dict = grap2.to_dict()
+
+with open("grafico_animado.json", "w") as f:
+    json.dump(fig_dict, f, cls=putils.PlotlyJSONEncoder)
+
+with open("data.json", "w", encoding="utf-8") as f:
     json.dump(datos_graficos, f, ensure_ascii=False, indent=4)

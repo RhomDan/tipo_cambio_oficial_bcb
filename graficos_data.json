@@ -2014,7 +2014,8 @@
                 "title": {
                     "text": "banco"
                 },
-                "tracegroupgap": 0
+                "tracegroupgap": 0,
+                "visible": false
             },
             "margin": {
                 "t": 60
@@ -2979,8 +2980,7 @@
             },
             "margin": {
                 "t": 60
-            },
-            "width": 850
+            }
         }
     }
 }

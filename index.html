@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Reporte de Datos Interactivos</title>
-    <!-- Vinculación del diseño CSS independiente -->
     <link rel="stylesheet" href="style.css">
-    <!-- Carga de la librería oficial de Plotly desde CDN web -->
-    <script src="https://cloudflare.com"></script>
+    
+    <!-- Librería local e independiente de internet -->
+    <script src="./plotly_offline.js"></script>
 </head>
 <body>
 
-    <!-- Encabezado de la Página -->
     <header class="header">
-        <h1>Análisis y Monitoreo de Datos Estáticos</h1>
-        <p>Reporte optimizado para despliegue inmediato en GitHub Pages</p>
+        <h1>Tipo de Cambio Oficial en Bolivia</h1>
+        <p>Monitoreo de comportamiento del tipo de cambio y volumenes de transacciones</p>
     </header>
 
     <main class="container">
-        <!-- Sección de Contenido Personalizado -->
         <section class="intro-section">
-            <h2>Introducción del Proyecto</h2>
-            <p>Escribe aquí cualquier contexto, explicación o conclusiones de tu proyecto de forma libre.</p>
-            
+            <h2>Política cambiaria en Bolivia</h2>
+            <p>En el período 2006 – 2011 el Banco Central de Bolivia generó la política para apreciar la moneda local y frenar la inflación importada, fijando el valor en Bs 6,86 (compra) y Bs 6,96 (venta) hacia noviembre de 2011. No obstante, a partir de la gestión 2023, ante la caída de las reservas internacionales y escasez de dólares se fomentó un mercado paralelo.</p>
+            <p>En 26 de junio de 2026 mediante la Resolución Ministerial N.º 245 y la normativa del BCB, se abandonó formalmente el tipo de cambio fijo para cambiar aun esquema más flexible determinado por la oferta y demanda del mercado</p>
         </section>
 
-        <!-- Rejilla de Distribución para tus 3 Gráficos Interactivos de Plotly -->
+        <!-- Contenedores de los gráficos -->
         <section class="grid-graficos">
             <div id="plot1" class="card"></div>
             <div id="plot2" class="card"></div>
@@ -33,16 +31,34 @@
         </section>
     </main>
 
-    <!-- Lógica Javascript que carga e inyecta los gráficos crudos de Python de manera asíncrona -->
     <script>
-        fetch('./graficos_data.json')
+        // 1. Carga de los gráficos puramente estáticos (Quitamos plot2 de aquí)
+        fetch('./data.json')
             .then(response => response.json())
             .then(data => {
-                Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true});
-                Plotly.newPlot('plot2', data.grafico2.data, data.grafico2.layout, {responsive: true});
-                Plotly.newPlot('plot3', data.grafico3.data, data.grafico3.layout, {responsive: true});
+                Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true, displayModeBar: false});
+                // SE ELIMINÓ LA LÍNEA DE PLOT2 QUE SOBREESCRIBÍA EL CONTENEDOR
+                Plotly.newPlot('plot3', data.grafico3.data, data.grafico3.layout, {responsive: true, displayModeBar: false});
             })
-            .catch(error => console.error('Error cargando los datos de los gráficos:', error));
+            .catch(error => console.error('Error cargando los datos estáticos:', error));
+
+        // 2. Carga exclusiva del gráfico animado en 'plot2' con sus respectivos frames
+        fetch('grafico_animado.json')
+            .then(response => response.json())
+            .then(figura => {
+                // Renderizamos la base del gráfico animado
+                Plotly.newPlot(
+                    'plot2', 
+                    figura.data, 
+                    figura.layout, 
+                    { responsive: true, displayModeBar: false }
+                ).then(function() {
+                    // Sincronizamos los cuadros de animación con el slider nativo de Plotly.js
+                    Plotly.addFrames('plot2', figura.frames);
+                });
+            })
+            .catch(error => console.error('Error cargando el JSON animado:', error));
     </script>
+
 </body>
 </html>
