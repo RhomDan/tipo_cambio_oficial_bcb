@@ -83,10 +83,10 @@ grap2 = px.bar(
     animation_frame = 'fecha_formato',
     range_x = [0, bancos_montos['Monto'].max() * 1.1],
     hover_data = ['Monto'],
-    title = 'Montos Transaccionados por bancos'
+    title = 'Montos transaccionados por bancos'
 )
 grap2.update_layout(legend = dict(visible = False),
-                    yaxis=dict(tickmode = 'linear', title = '', tickfont = dict(size = 7)),
+                    yaxis=dict(tickmode = 'linear', title = '', tickfont = dict(size = 9)),
                     updatemenus = [dict(visible = False)],
                     xaxis = dict(title = 'Montos Transaccionados'),
                     title = dict(xanchor = 'center', x = 0.5),

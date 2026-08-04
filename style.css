@@ -61,8 +61,8 @@ body {
 /* Tarjetas contenedoras de los gráficos individuales */
 .card {
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    min-height: 400px; /* Asegura un tamaño mínimo visible antes de la carga de Plotly */
+    min-height: 600px; /* Asegura un tamaño mínimo visible antes de la carga de Plotly */
 }

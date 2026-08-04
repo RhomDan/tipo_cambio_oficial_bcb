@@ -2016,7 +2016,7 @@
                     "BANCO BISA"
                 ],
                 "tickfont": {
-                    "size": 7
+                    "size": 9
                 },
                 "tickmode": "linear"
             },
@@ -2028,7 +2028,7 @@
                 "visible": false
             },
             "title": {
-                "text": "Montos Transaccionados por bancos",
+                "text": "Montos transaccionados por bancos",
                 "xanchor": "center",
                 "x": 0.5
             },
