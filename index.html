@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Reporte de Datos Interactivos</title>
+    <!-- Vinculación del diseño CSS independiente -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Carga de la librería oficial de Plotly desde CDN web -->
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body>
+
+    <!-- Encabezado de la Página -->
+    <header class="header">
+        <h1>Análisis y Monitoreo de Datos Estáticos</h1>
+        <p>Reporte optimizado para despliegue inmediato en GitHub Pages</p>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Contenido Personalizado -->
+        <section class="intro-section">
+            <h2>Introducción del Proyecto</h2>
+            <p>Escribe aquí cualquier contexto, explicación o conclusiones de tu proyecto de forma libre.</p>
+            
+        </section>
+
+        <!-- Rejilla de Distribución para tus 3 Gráficos Interactivos de Plotly -->
+        <section class="grid-graficos">
+            <div id="plot1" class="card"></div>
+            <div id="plot2" class="card"></div>
+            <div id="plot3" class="card grafico-completo"></div>
+        </section>
+    </main>
+
+    <!-- Lógica Javascript que carga e inyecta los gráficos crudos de Python de manera asíncrona -->
+    <script>
+        fetch('graficos_data.json')
+            .then(response => response.json())
+            .then(data => {
+                Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true});
+                Plotly.newPlot('plot2', data.grafico2.data, data.grafico2.layout, {responsive: true});
+                Plotly.newPlot('plot3', data.grafico3.data, data.grafico3.layout, {responsive: true});
+            })
+            .catch(error => console.error('Error cargando los datos de los gráficos:', error));
+    </script>
+</body>
+</html>
