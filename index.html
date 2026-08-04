@@ -35,7 +35,7 @@
 
     <!-- Lógica Javascript que carga e inyecta los gráficos crudos de Python de manera asíncrona -->
     <script>
-        fetch('graficos_data.json')
+        fetch('./graficos_data.json')
             .then(response => response.json())
             .then(data => {
                 Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true});
