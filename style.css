@@ -48,9 +48,10 @@ body {
 /* Rejilla Grid: Los dos primeros gráficos van lado a lado */
 .grid-graficos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-top: 20px;
+    grid-template-columns: 1fr 1fr; /* Mantiene dos columnas perfectas */
+    gap: 30px;                       /* Aumenta la separación externa entre tarjetas */
+    margin-top: 25px;
+    padding: 10px;
 }
 
 /* El tercer gráfico ocupa todo el ancho inferior disponible */
@@ -61,8 +62,14 @@ body {
 /* Tarjetas contenedoras de los gráficos individuales */
 .card {
     background: white;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    min-height: 600px; /* Asegura un tamaño mínimo visible antes de la carga de Plotly */
+    border-radius: 12px;             /* Bordes un poco más suaves y modernos */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Sombra más sutil y elegante */
+    
+    /* CONTROL DE MÁRGENES INTERNOS */
+    padding: 24px;                  /* Da espacio libre para que el gráfico no toque los bordes */
+    
+    /* CONTROL DE TAMAÑO */
+    min-height: 500px;              /* Altura ideal para que las barras y ejes respiren */
+    display: flex;
+    flex-direction: column;
 }

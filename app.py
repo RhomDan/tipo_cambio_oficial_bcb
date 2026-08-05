@@ -36,7 +36,7 @@ if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
     for url in url_tco:
         try:
             request = requests.post(url, headers = headers)
-            tablas = pd.read_html(url, encoding = 'utf-8', thousands = '.', decimal = ',')
+            tablas = pd.read_html(url, thousands = '.', decimal = ',', flavor='html5lib')
             tabla = tablas[0]
             tabla_formato = tabla.copy()
             tabla_formato = tabla_formato.swaplevel(1,0, axis = 1)
@@ -49,16 +49,17 @@ if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
                 tabla_temp = formato_tabla(tabla_temp)
                 df = pd.concat(objs = [df, tabla_temp], axis = 0, ignore_index = True)
                 i += 2
+            print('Archivo consolidado con las fechas', fechas[fechas.index(tco_fechas) + 1:])
             time.sleep(3)
         except:
-            pass
+            print('NO hay fechas a incorporar', ValueError)
 
 try:
     df_consolidado = pd.concat(objs = [informacion_anterior, df], axis = 0, ignore_index = True)
     df_consolidado.to_csv('df_canasta_bancos_operaciones_usd.csv', index = False)
-    tco_promedio_pronderado = df[df['banco'] != 'TOTAL BANCOS'].groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).reset_index()
-    tco_promedio_pronderado.columns = ['fecha', 'tco']
-    tco_promedio_pronderado.to_csv('tco_diario.csv', index = False)
+    tco = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).reset_index()
+    tco.columns = ['fecha', 'tco']
+    tco.to_csv('tco_diario.csv', index = False)
 except:
     pass
 
@@ -70,9 +71,10 @@ grap = px.line(
     template = 'plotly_white',
     title = 'Tipo de Cambio Oficial a la fecha'
 )
-grap.update_layout(title = dict(xanchor = 'center', x = 0.5))
+grap.update_layout(title = dict(xanchor = 'center', x = 0.5),
+                   margin = dict(l=40, r=20, t=50, b=40))
 
-bancos_montos = informacion_anterior[informacion_anterior['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum'}).reset_index()
+bancos_montos = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum'}).reset_index()
 bancos_montos['fecha'] = pd.to_datetime(bancos_montos['fecha'])
 bancos_montos['fecha_formato'] = bancos_montos['fecha'].dt.strftime('%d-%m')
 grap2 = px.bar(
@@ -90,6 +92,7 @@ grap2.update_layout(legend = dict(visible = False),
                     updatemenus = [dict(visible = False)],
                     xaxis = dict(title = 'Montos Transaccionados'),
                     title = dict(xanchor = 'center', x = 0.5),
+                    margin = dict(l=150, r=20, t=50, b=80),
                     sliders = [dict(currentvalue = dict(prefix = 'Fecha: ',
                         visible = True,
                         xanchor = 'center'
@@ -105,7 +108,8 @@ if grap2.frames:
         for data in frame.data:
             data.hovertemplate = mi_plantilla
 
-bancos_operaciones = informacion_anterior[informacion_anterior['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum', 'N°':'sum'}).reset_index()
+df_consolidado['N°'] = df_consolidado['N°'].astype(float)
+bancos_operaciones = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum', 'N°':'sum'}).reset_index()
 grap3 = px.scatter(
     bancos_operaciones.query('banco.isin(["BANCO BISA", "BANCO GANADERO", "BANCO MERCANTIL SANTA CRUZ", "BANCO NACIONAL DE BOLIVIA", "BANCO UNION"])'),
     x = 'N°',
