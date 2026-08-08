@@ -63,6 +63,9 @@ try:
 except:
     pass
 
+df_consolidado = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
+tco = pd.read_csv('tco_diario.csv')
+
 grap = px.line(
     tco,
     x = 'fecha',
