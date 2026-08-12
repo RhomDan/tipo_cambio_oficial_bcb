@@ -5,6 +5,8 @@ import time
 from bs4 import BeautifulSoup
 import dash
 import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 import json
 import plotly.utils as putils
 
@@ -64,20 +66,43 @@ except:
     pass
 
 df_consolidado = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
+df_consolidado['banco'] = df_consolidado['banco'].apply(lambda x:  ' '.join([nombre[0] + nombre[1:].lower() for nombre in x.split(' ')]))
+df_consolidado['banco'] = df_consolidado['banco'].str.replace('De', 'de').str.replace('La', 'la')
 tco = pd.read_csv('tco_diario.csv')
+montos = df_consolidado.query('banco != "Total Bancos"').groupby('fecha').agg({'Monto':'sum'})
+tipo_cambio = df_consolidado.query('banco != "Total Bancos"').groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).rename('tco')
+df_tco_montos = pd.concat(objs = [tipo_cambio, montos], axis = 1, join = 'inner')
 
-grap = px.line(
-    tco,
-    x = 'fecha',
-    y = 'tco',
-    markers = 'o',
-    template = 'plotly_white',
-    title = 'Tipo de Cambio Oficial a la fecha'
-)
-grap.update_layout(title = dict(xanchor = 'center', x = 0.5),
-                   margin = dict(l=40, r=20, t=50, b=40))
+grap = make_subplots(specs = [[{'secondary_y': True}]])
+grap.add_trace(go.Scatter(
+    x = df_tco_montos.index,
+    y = df_tco_montos['tco'],
+    mode = 'lines+markers',
+    line = dict(
+    shape = 'spline',
+    smoothing = 1.3,
+    width = 1.5,
+    color = 'royalblue'
+    ),
+    name = 'TCO'
+), secondary_y = False)
+grap.add_trace(go.Bar(
+    x = df_tco_montos.index,
+    y = df_tco_montos['Monto'],
+    opacity = 0.75,
+    name = 'Volumen'
+), secondary_y = True)
 
-bancos_montos = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum'}).reset_index()
+grap.update_layout(template = 'plotly_white',
+                  legend = dict(yanchor = 'bottom',y = -0.25, x = 0.35, orientation = 'h', visible = False),
+                  title = dict(text = 'Tipo de Cambio Oficial', xanchor = 'center', x = 0.5),
+                  hovermode = 'x', hoverlabel=dict(namelength=-1))
+grap.update_yaxes(range = [0, 500000000], secondary_y = True, showgrid = False, showticklabels=False)
+grap.update_yaxes(range = [8, 13], secondary_y = False)
+grap.update_traces(hovertemplate = '<b>TCO:</b> %{y}<extra></extra>', secondary_y = False)
+grap.update_traces(hovertemplate = '<b>Monto:</b> %{y:,.0f}<extra></extra>', secondary_y = True)
+
+bancos_montos = df_consolidado[df_consolidado['banco'] != 'Total Bancos'].groupby(['fecha','banco']).agg({'Monto':'sum'}).reset_index()
 bancos_montos['fecha'] = pd.to_datetime(bancos_montos['fecha'])
 bancos_montos['fecha_formato'] = bancos_montos['fecha'].dt.strftime('%d-%m')
 grap2 = px.bar(
@@ -112,9 +137,9 @@ if grap2.frames:
             data.hovertemplate = mi_plantilla
 
 df_consolidado['N°'] = df_consolidado['N°'].astype(float)
-bancos_operaciones = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby(['fecha','banco']).agg({'Monto':'sum', 'N°':'sum'}).reset_index()
+bancos_operaciones = df_consolidado[df_consolidado['banco'] != 'Total Bancos'].groupby(['fecha','banco']).agg({'Monto':'sum', 'N°':'sum'}).reset_index()
 grap3 = px.scatter(
-    bancos_operaciones.query('banco.isin(["BANCO BISA", "BANCO GANADERO", "BANCO MERCANTIL SANTA CRUZ", "BANCO NACIONAL DE BOLIVIA", "BANCO UNION"])'),
+    bancos_operaciones.query('banco.isin(["Banco Bisa", "Banco Ganadero", "Banco Mercantil Santa Cruz", "Banco Nacional de Bolivia", "Banco Union"])'),
     x = 'N°',
     y = 'Monto',
     color = 'banco',
