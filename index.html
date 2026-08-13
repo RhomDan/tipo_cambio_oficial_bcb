@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Reporte de Datos Interactivos</title>
+    <title>Reporte datos TCO BCB</title>
     <link rel="stylesheet" href="style.css">
     
     <!-- Librería local e independiente de internet -->
@@ -37,7 +37,6 @@
             .then(response => response.json())
             .then(data => {
                 Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true, displayModeBar: false});
-                // SE ELIMINÓ LA LÍNEA DE PLOT2 QUE SOBREESCRIBÍA EL CONTENEDOR
                 Plotly.newPlot('plot3', data.grafico3.data, data.grafico3.layout, {responsive: true, displayModeBar: false});
             })
             .catch(error => console.error('Error cargando los datos estáticos:', error));
@@ -53,7 +52,7 @@
                     figura.layout, 
                     { responsive: true, displayModeBar: false }
                 ).then(function() {
-                    // Sincronizamos los cuadros de animación con el slider nativo de Plotly.js
+
                     Plotly.addFrames('plot2', figura.frames);
                 });
             })
