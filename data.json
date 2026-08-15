@@ -42,11 +42,12 @@
                     "2026-08-10",
                     "2026-08-11",
                     "2026-08-12",
-                    "2026-08-13"
+                    "2026-08-13",
+                    "2026-08-14"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "9ihcj8J1I0CF61G4HoUjQIXrUbgehSNAj8L1KFyPI0CamZmZmZkjQClcj8L1qCNASOF6FK7HI0DsUbgehesjQDMzMzMzMyRAexSuR+F6JEDNzMzMzMwkQAAAAAAAACVAZmZmZmZmJUAAAAAAAIAlQDMzMzMzsyVAzczMzMzMJUAAAAAAAAAmQMP1KFyPQiZA7FG4HoVrJkA9CtejcL0mQBSuR+F6FCdAmpmZmZmZJ0BI4XoUrscnQM3MzMzMTChAw/UoXI9CKEApXI/C9SgoQArXo3A9CihAuB6F61G4J0AK16NwPYonQOxRuB6FaydAUrgehetRJ0A9CtejcD0nQA=="
+                    "bdata": "9ihcj8J1I0CF61G4HoUjQIXrUbgehSNAj8L1KFyPI0CamZmZmZkjQClcj8L1qCNASOF6FK7HI0DsUbgehesjQDMzMzMzMyRAexSuR+F6JEDNzMzMzMwkQAAAAAAAACVAZmZmZmZmJUAAAAAAAIAlQDMzMzMzsyVAzczMzMzMJUAAAAAAAAAmQMP1KFyPQiZA7FG4HoVrJkA9CtejcL0mQBSuR+F6FCdAmpmZmZmZJ0BI4XoUrscnQM3MzMzMTChAw/UoXI9CKEApXI/C9SgoQArXo3A9CihAuB6F61G4J0AK16NwPYonQOxRuB6FaydAUrgehetRJ0A9CtejcD0nQClcj8L1KCdA"
                 },
                 "type": "scatter",
                 "xaxis": "x",
@@ -88,11 +89,12 @@
                     "2026-08-10",
                     "2026-08-11",
                     "2026-08-12",
-                    "2026-08-13"
+                    "2026-08-13",
+                    "2026-08-14"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAA0FyFkEEAAABwG5OQQQAAAADD04NBAAAAkCt9nEEAAABgoR+UQQAAAHA8EZVBAAAAoD2nhkEAAACA+cCWQQAAAJAVI5tBAAAA4LljnEEAAAAYcJahQQAAAIDt/IVBAAAACKR/pEEAAACA6EmRQQAAABhJCKJBAAAAQNAZjUEAAAAARKyXQQAAABBqnaJBAAAAcMs9m0EAAAAAM0+iQQAAALA5KZRBAAAAGNuGokEAAABQXt2jQQAAAMBGd6JBAAAA0LSgo0EAAACg9C2TQQAAACYBEaNBAAAA+C7XjEEAAACY7eaNQQAAAAj68pZBAAAAWPuNgkEAAAB47BKEQQ=="
+                    "bdata": "AAAA0FyFkEEAAABwG5OQQQAAAADD04NBAAAAkCt9nEEAAABgoR+UQQAAAHA8EZVBAAAAoD2nhkEAAACA+cCWQQAAAJAVI5tBAAAA4LljnEEAAAAYcJahQQAAAIDt/IVBAAAACKR/pEEAAACA6EmRQQAAABhJCKJBAAAAQNAZjUEAAAAARKyXQQAAABBqnaJBAAAAcMs9m0EAAAAAM0+iQQAAALA5KZRBAAAAGNuGokEAAABQXt2jQQAAAMBGd6JBAAAA0LSgo0EAAACg9C2TQQAAACYBEaNBAAAA+C7XjEEAAACY7eaNQQAAAAj68pZBAAAAWPuNgkEAAAB47BKEQQAAAGAdUYFB"
                 },
                 "type": "bar",
                 "xaxis": "x",
@@ -2840,6 +2842,27 @@
                                 }
                             ],
                             "label": "13-08",
+                            "method": "animate"
+                        },
+                        {
+                            "args": [
+                                [
+                                    "14-08"
+                                ],
+                                {
+                                    "frame": {
+                                        "duration": 0,
+                                        "redraw": true
+                                    },
+                                    "mode": "immediate",
+                                    "fromcurrent": true,
+                                    "transition": {
+                                        "duration": 0,
+                                        "easing": "linear"
+                                    }
+                                }
+                            ],
+                            "label": "14-08",
                             "method": "animate"
                         }
                     ],
@@ -13768,6 +13791,347 @@
                     }
                 ],
                 "name": "13-08"
+            },
+            {
+                "data": [
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Bisa",
+                        "marker": {
+                            "color": "#636efa",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Bisa",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAgFNqaEE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Bisa"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Económico",
+                        "marker": {
+                            "color": "#EF553B",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Económico",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAFLfJ0E="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Económico"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Fie",
+                        "marker": {
+                            "color": "#00cc96",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Fie",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAPSTMEE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Fie"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Fortaleza",
+                        "marker": {
+                            "color": "#ab63fa",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Fortaleza",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAOBwDUE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Fortaleza"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Ganadero",
+                        "marker": {
+                            "color": "#FFA15A",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Ganadero",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAQPJMZUE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Ganadero"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Mercantil Santa Cruz",
+                        "marker": {
+                            "color": "#19d3f3",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Mercantil Santa Cruz",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAQBoTVUE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Mercantil Santa Cruz"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Nacional de Bolivia",
+                        "marker": {
+                            "color": "#FF6692",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Nacional de Bolivia",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAFayMUE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Nacional de Bolivia"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Prodem",
+                        "marker": {
+                            "color": "#B6E880",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Prodem",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAECj6EA="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Prodem"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Pyme Ecofuturo",
+                        "marker": {
+                            "color": "#FF97FF",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Pyme Ecofuturo",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAAAA8D8="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Pyme Ecofuturo"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Pyme de la Comunidad",
+                        "marker": {
+                            "color": "#FECB52",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Pyme de la Comunidad",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAAAAAAA="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Pyme de la Comunidad"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Solidario",
+                        "marker": {
+                            "color": "#636efa",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Solidario",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAIycFkE="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Solidario"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco Union",
+                        "marker": {
+                            "color": "#EF553B",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco Union",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAEBG7UA="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco Union"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco de Crédito",
+                        "marker": {
+                            "color": "#00cc96",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco de Crédito",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAgKUyR0E="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco de Crédito"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    },
+                    {
+                        "hovertemplate": "<b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "Banco de la Nación Argentina",
+                        "marker": {
+                            "color": "#ab63fa",
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "Banco de la Nación Argentina",
+                        "orientation": "h",
+                        "showlegend": true,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "AAAAAMBS30A="
+                        },
+                        "xaxis": "x",
+                        "y": [
+                            "Banco de la Nación Argentina"
+                        ],
+                        "yaxis": "y",
+                        "type": "bar"
+                    }
+                ],
+                "name": "14-08"
             }
         ]
     },
@@ -13780,7 +14144,7 @@
                     "color": "#636efa",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQ=="
+                        "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQAAAIBTamhB"
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -13792,12 +14156,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAABAdUAAAAAAAAA0QAAAAAAAgG1AAAAAAACAcUAAAAAAAABrQAAAAAAAgGlAAAAAAACAa0AAAAAAAEBwQAAAAAAAQHVAAAAAAAAAaUAAAAAAAMB2QAAAAAAAAGhAAAAAAAAAZkAAAAAAAABhQAAAAAAAQH5AAAAAAAAAZ0AAAAAAAEB2QAAAAAAAAHhAAAAAAADAd0AAAAAAAIB5QAAAAAAAgGpAAAAAAACAdEAAAAAAAMBxQAAAAAAAgHJAAAAAAAAAbkAAAAAAAMBoQAAAAAAAgF9AAAAAAADgY0AAAAAAAABeQAAAAAAAIGhAAAAAAACAX0AAAAAAAABgQA=="
+                    "bdata": "AAAAAABAdUAAAAAAAAA0QAAAAAAAgG1AAAAAAACAcUAAAAAAAABrQAAAAAAAgGlAAAAAAACAa0AAAAAAAEBwQAAAAAAAQHVAAAAAAAAAaUAAAAAAAMB2QAAAAAAAAGhAAAAAAAAAZkAAAAAAAABhQAAAAAAAQH5AAAAAAAAAZ0AAAAAAAEB2QAAAAAAAAHhAAAAAAADAd0AAAAAAAIB5QAAAAAAAgGpAAAAAAACAdEAAAAAAAMBxQAAAAAAAgHJAAAAAAAAAbkAAAAAAAMBoQAAAAAAAgF9AAAAAAADgY0AAAAAAAABeQAAAAAAAIGhAAAAAAACAX0AAAAAAAABgQAAAAAAAwF5A"
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQ=="
+                    "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQAAAIBTamhB"
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -13809,7 +14173,7 @@
                     "color": "#EF553B",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQ=="
+                        "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQAAAEDyTGVB"
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -13821,12 +14185,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAABggkAAAAAAANCpQAAAAAAA4KNAAAAAAACAokAAAAAAADihQAAAAAAAyKFAAAAAAACQoUAAAAAAAAihQAAAAAAAIJJAAAAAAABQkUAAAAAAAMCOQAAAAAAAwItAAAAAAACgjUAAAAAAAMCbQAAAAAAAIJBAAAAAAAAgi0AAAAAAAOCSQAAAAAAAUJBAAAAAAAAQl0AAAAAAAICRQAAAAAAAwIpAAAAAAABwkUAAAAAAAACXQAAAAAAAwJhAAAAAAAAgl0AAAAAAAMB1QAAAAAAACIhAAAAAAACgaEAAAAAAAGBxQAAAAAAAQGZAAAAAAABAcUAAAAAAAABnQA=="
+                    "bdata": "AAAAAABggkAAAAAAANCpQAAAAAAA4KNAAAAAAACAokAAAAAAADihQAAAAAAAyKFAAAAAAACQoUAAAAAAAAihQAAAAAAAIJJAAAAAAABQkUAAAAAAAMCOQAAAAAAAwItAAAAAAACgjUAAAAAAAMCbQAAAAAAAIJBAAAAAAAAgi0AAAAAAAOCSQAAAAAAAUJBAAAAAAAAQl0AAAAAAAICRQAAAAAAAwIpAAAAAAABwkUAAAAAAAACXQAAAAAAAwJhAAAAAAAAgl0AAAAAAAMB1QAAAAAAACIhAAAAAAACgaEAAAAAAAGBxQAAAAAAAQGZAAAAAAABAcUAAAAAAAABnQAAAAAAAQGVA"
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQ=="
+                    "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQAAAEDyTGVB"
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -13838,7 +14202,7 @@
                     "color": "#00cc96",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQ=="
+                        "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQAAAEAaE1VB"
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -13850,12 +14214,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAVkAAAAAAAOCNQAAAAAAAIIZAAAAAAACAlkAAAAAAACCIQAAAAAAAwIJAAAAAAACAikAAAAAAAKCBQAAAAAAAQIRAAAAAAACggEAAAAAAACCKQAAAAAAAIIhAAAAAAABghEAAAAAAAACKQAAAAAAAIIVAAAAAAABAg0AAAAAAAECBQAAAAAAAkJNAAAAAAACAiEAAAAAAAKCLQAAAAAAA4I1AAAAAAADgiUAAAAAAAECNQAAAAAAAIJFAAAAAAACgk0AAAAAAALiRQAAAAAAA0HtAAAAAAADwcUAAAAAAAIBrQAAAAAAAgGtAAAAAAAAgY0AAAAAAAABnQA=="
+                    "bdata": "AAAAAAAAVkAAAAAAAOCNQAAAAAAAIIZAAAAAAACAlkAAAAAAACCIQAAAAAAAwIJAAAAAAACAikAAAAAAAKCBQAAAAAAAQIRAAAAAAACggEAAAAAAACCKQAAAAAAAIIhAAAAAAABghEAAAAAAAACKQAAAAAAAIIVAAAAAAABAg0AAAAAAAECBQAAAAAAAkJNAAAAAAACAiEAAAAAAAKCLQAAAAAAA4I1AAAAAAADgiUAAAAAAAECNQAAAAAAAIJFAAAAAAACgk0AAAAAAALiRQAAAAAAA0HtAAAAAAADwcUAAAAAAAIBrQAAAAAAAgGtAAAAAAAAgY0AAAAAAAABnQAAAAAAAYGVA"
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQ=="
+                    "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQAAAEAaE1VB"
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -13867,7 +14231,7 @@
                     "color": "#ab63fa",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQ=="
+                        "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQAAAABWsjFB"
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -13879,12 +14243,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAIEAAAAAAAJCSQAAAAAAAoIdAAAAAAABgv0AAAAAAADSxQAAAAAAAzLBAAAAAAACAhUAAAAAAAOCDQAAAAAAAgIlAAAAAAADAikAAAAAAACCMQAAAAAAAQI5AAAAAAAAghkAAAAAAALCSQAAAAAAAQJBAAAAAAADAi0AAAAAAAICNQAAAAAAAcJBAAAAAAACAi0AAAAAAAICQQAAAAAAA4I9AAAAAAACAkEAAAAAAAICRQAAAAAAAUJRAAAAAAACgmUAAAAAAAOSVQAAAAAAA6IBAAAAAAABQgUAAAAAAAKiAQAAAAAAAMHJAAAAAAAAQcUAAAAAAAEBsQA=="
+                    "bdata": "AAAAAAAAIEAAAAAAAJCSQAAAAAAAoIdAAAAAAABgv0AAAAAAADSxQAAAAAAAzLBAAAAAAACAhUAAAAAAAOCDQAAAAAAAgIlAAAAAAADAikAAAAAAACCMQAAAAAAAQI5AAAAAAAAghkAAAAAAALCSQAAAAAAAQJBAAAAAAADAi0AAAAAAAICNQAAAAAAAcJBAAAAAAACAi0AAAAAAAICQQAAAAAAA4I9AAAAAAACAkEAAAAAAAICRQAAAAAAAUJRAAAAAAACgmUAAAAAAAOSVQAAAAAAA6IBAAAAAAABQgUAAAAAAAKiAQAAAAAAAMHJAAAAAAAAQcUAAAAAAAEBsQAAAAAAAYG9A"
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQ=="
+                    "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQAAAABWsjFB"
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -13896,7 +14260,7 @@
                     "color": "#FFA15A",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQA=="
+                        "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQAAAAABARu1A"
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -13908,12 +14272,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAIEAAAAAAAAB9QAAAAAAAAHlAAAAAAACAckAAAAAAAMByQAAAAAAAwHRAAAAAAAAAcEAAAAAAAMBzQAAAAAAAAHFAAAAAAAAAdEAAAAAAAAB0QAAAAAAAgH9AAAAAAAAggUAAAAAAAECKQAAAAAAAQItAAAAAAAAwkUAAAAAAAMCDQAAAAAAAQHRAAAAAAABAcEAAAAAAAMBwQAAAAAAAgG1AAAAAAAAAaEAAAAAAAABzQAAAAAAAAHZAAAAAAABAjUAAAAAAAFiNQAAAAAAAQH9AAAAAAABgZEAAAAAAAABYQAAAAAAAAE9AAAAAAAAAPkAAAAAAAAA8QA=="
+                    "bdata": "AAAAAAAAIEAAAAAAAAB9QAAAAAAAAHlAAAAAAACAckAAAAAAAMByQAAAAAAAwHRAAAAAAAAAcEAAAAAAAMBzQAAAAAAAAHFAAAAAAAAAdEAAAAAAAAB0QAAAAAAAgH9AAAAAAAAggUAAAAAAAECKQAAAAAAAQItAAAAAAAAwkUAAAAAAAMCDQAAAAAAAQHRAAAAAAABAcEAAAAAAAMBwQAAAAAAAgG1AAAAAAAAAaEAAAAAAAABzQAAAAAAAAHZAAAAAAABAjUAAAAAAAFiNQAAAAAAAQH9AAAAAAABgZEAAAAAAAABYQAAAAAAAAE9AAAAAAAAAPkAAAAAAAAA8QAAAAAAAADlA"
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQA=="
+                    "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQAAAAABARu1A"
                 },
                 "yaxis": "y",
                 "type": "scatter"
