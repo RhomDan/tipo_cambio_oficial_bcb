@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import json
 import plotly.utils as putils
+from datetime import timedelta
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'}
 
@@ -28,8 +29,8 @@ response = session.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 input_fechas = soup.find('input')
 fechas = [item.replace('[','').replace(']','').replace('"','') for item in input_fechas['data-fechas'].split(',')]
-tco = pd.read_csv('tco_diario.csv')
-tco_fechas = tco.fecha.iloc[-1]
+date = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
+tco_fechas = date.fecha.max()
 informacion_anterior = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
 if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
     url_base = 'https://www.bcb.gob.bo/tco_reporte_detalle_historico.php?fecha='
@@ -58,9 +59,16 @@ if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
 
 try:
     df_consolidado = pd.concat(objs = [informacion_anterior, df], axis = 0, ignore_index = True)
+    df_consolidado['fecha'] = pd.to_datetime(df_consolidado['fecha'])
     df_consolidado.to_csv('df_canasta_bancos_operaciones_usd.csv', index = False)
+    dates = pd.date_range(start = df_consolidado['fecha'].min(), end = df_consolidado['fecha'].max() + timedelta(days = 1), freq = 'D')
+    dates = pd.DataFrame(dates, columns = ['fecha'])
     tco = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).reset_index()
     tco.columns = ['fecha', 'tco']
+    tco = dates.merge(right = tco, how = 'left', on = 'fecha')
+    tco = tco.ffill()
+    tco['tco'] = tco['tco'].shift(1)
+    tco = tco.bfill()
     tco.to_csv('tco_diario.csv', index = False)
 except:
     pass
@@ -75,13 +83,13 @@ df_tco_montos = pd.concat(objs = [tipo_cambio, montos], axis = 1, join = 'inner'
 
 grap = make_subplots(specs = [[{'secondary_y': True}]])
 grap.add_trace(go.Scatter(
-    x = df_tco_montos.index,
-    y = df_tco_montos['tco'],
-    mode = 'lines+markers',
+    x = tco['fecha'],
+    y = tco['tco'],
+    mode = 'lines',
     line = dict(
     shape = 'spline',
     smoothing = 1.3,
-    width = 1.5,
+    width = 2,
     color = 'royalblue'
     ),
     name = 'TCO'
