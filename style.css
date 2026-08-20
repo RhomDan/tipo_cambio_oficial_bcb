@@ -47,9 +47,10 @@ body {
 
 /* Rejilla Grid: Los dos primeros gráficos van lado a lado */
 .grid-graficos {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Mantiene dos columnas perfectas */
-    gap: 30px;                       /* Aumenta la separación externa entre tarjetas */
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/ /* Mantiene dos columnas perfectas */
+    grid-column: span2;
+    /*gap: 30px;*/                       /* Aumenta la separación externa entre tarjetas */
     margin-top: 25px;
     padding: 10px;
 }
@@ -72,4 +73,5 @@ body {
     min-height: 500px;              /* Altura ideal para que las barras y ejes respiren */
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
