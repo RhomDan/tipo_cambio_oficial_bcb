@@ -23,7 +23,7 @@ def formato_tabla(data):
     data['Monto'] = data['Monto'].astype(float)
     return data
 
-url = 'https://www.bcb.gob.bo/tco_reporte_detalle_historico.php?'
+url = 'https://www.bcb.gob.bo/bcb_tco_publico_detalle_historico.php'
 session = requests.Session()
 response = session.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -33,7 +33,7 @@ date = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
 tco_fechas = date.fecha.max()
 informacion_anterior = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
 if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
-    url_base = 'https://www.bcb.gob.bo/tco_reporte_detalle_historico.php?fecha='
+    url_base = 'https://www.bcb.gob.bo/bcb_tco_publico_detalle_historico.php?fecha='
     url_tco = [url_base + i for i in fechas[fechas.index(tco_fechas) + 1:]]
     df = pd.DataFrame()
     for url in url_tco:
