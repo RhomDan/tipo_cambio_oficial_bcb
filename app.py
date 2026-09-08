@@ -161,7 +161,42 @@ grap3.update_layout(
     title = dict(xanchor = 'center', x = 0.5)
 )
 
+tarjetas = make_subplots(rows = 1, cols = 2,
+                         specs = [[{"type": "indicator"}, {"type": "indicator"}]],
+                         vertical_spacing = 0.1)
+tarjetas.add_trace(
+    go.Indicator(
+        mode = 'delta+number',
+        value = df_tco_montos['tco'].iloc[-1],
+        delta={"reference": df_tco_montos['tco'].iloc[-2]},
+        title={"text": "T.C.O.<br>", "align": "center"},
+        number={"font": {"size": 48}},
+    ),
+    row = 1,
+    col = 1
+)
+tarjetas.add_trace(
+    go.Indicator(
+        mode = 'delta+number',
+        value = df_tco_montos['Monto'].iloc[-1],
+        delta={"reference": df_tco_montos['Monto'].iloc[-2]},
+        title={"text": "Total transaccionado<br>", "align": "center"},
+        number={"font": {"size": 48}},
+    ),
+    row = 1,
+    col = 2
+)
+tarjetas.update_layout(title = {
+    'text':f'Información del {pd.to_datetime(df_tco_montos.index[-1]).strftime('%d-%b')}',
+    "y": 0.93,          # Posición vertical (cerca del tope superior)
+    "x": 0.5,           # Posición horizontal (0.5 significa perfectamente centrado)
+    "xanchor": "center",
+    "yanchor": "top"
+    },
+    margin=dict(t=90, b=20, l=40, r=40))
+
 datos_graficos = {
+    'tarjeta1': json.loads(tarjetas.to_json()),
     "grafico1": json.loads(grap.to_json()),
     "grafico2": json.loads(grap2.to_json()),
     "grafico3": json.loads(grap3.to_json())

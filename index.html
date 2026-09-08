@@ -23,6 +23,10 @@
             <p>En 26 de junio de 2026 mediante la Resolución Ministerial N.º 245 y la normativa del BCB, se abandonó formalmente el tipo de cambio fijo para cambiar aun esquema más flexible determinado por la oferta y demanda del mercado</p>
         </section>
 
+        <section class="kpi-section">
+            <div id="plot-kpi" class="card-kpi"></div>
+        </section>
+
         <!-- Contenedores de los gráficos -->
         <section class="grid-graficos">
             <div id="plot1" class="card"></div>
@@ -36,6 +40,7 @@
         fetch('./data.json')
             .then(response => response.json())
             .then(data => {
+                Plotly.newPlot('plot-kpi', data.tarjeta1.data, data.tarjeta1.layout, {responsive: true, displayModeBar: false});
                 Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true, displayModeBar: false});
                 Plotly.newPlot('plot3', data.grafico3.data, data.grafico3.layout, {responsive: true, displayModeBar: false});
             })
