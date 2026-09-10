@@ -187,7 +187,7 @@ tarjetas.add_trace(
     col = 2
 )
 tarjetas.update_layout(title = {
-    'text':f'Información del {pd.to_datetime(df_tco_montos.index[-1]).strftime('%d-%b')}',
+    'text':f'Información del {pd.to_datetime(df_tco_montos.index[-1]).strftime("%d-%b")}',
     "y": 0.93,          # Posición vertical (cerca del tope superior)
     "x": 0.5,           # Posición horizontal (0.5 significa perfectamente centrado)
     "xanchor": "center",
