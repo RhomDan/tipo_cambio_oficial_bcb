@@ -169,7 +169,7 @@ tarjetas.add_trace(
         mode = 'delta+number',
         value = df_tco_montos['tco'].iloc[-1],
         delta={"reference": df_tco_montos['tco'].iloc[-2]},
-        title={"text": "T.C.O.<br>", "align": "center"},
+        title={"text": f"T.C.O. para el {pd.to_datetime(tco['fecha'].iloc[-1]).strftime('%d-%b')}", "align": "center"},
         number={"font": {"size": 48}},
     ),
     row = 1,
@@ -180,20 +180,20 @@ tarjetas.add_trace(
         mode = 'delta+number',
         value = df_tco_montos['Monto'].iloc[-1],
         delta={"reference": df_tco_montos['Monto'].iloc[-2]},
-        title={"text": "Total transaccionado<br>", "align": "center"},
+        title={"text": f"Total transaccionado<br><span style='font-size:1.0em;color:gray'>{pd.to_datetime(tco['fecha'].iloc[-2]).strftime('%d-%b')}</span>", "align": "center"},
         number={"font": {"size": 48}},
     ),
     row = 1,
     col = 2
 )
-tarjetas.update_layout(title = {
-    'text':f'Información del {pd.to_datetime(df_tco_montos.index[-1]).strftime("%d-%b")}',
-    "y": 0.93,          # Posición vertical (cerca del tope superior)
-    "x": 0.5,           # Posición horizontal (0.5 significa perfectamente centrado)
-    "xanchor": "center",
-    "yanchor": "top"
-    },
-    margin=dict(t=90, b=20, l=40, r=40))
+# tarjetas.update_layout(title = {
+#     'text':f'Información del {pd.to_datetime(df_tco_montos.index[-1]).strftime("%d-%b")}',
+#     "y": 0.93,          # Posición vertical (cerca del tope superior)
+#     "x": 0.5,           # Posición horizontal (0.5 significa perfectamente centrado)
+#     "xanchor": "center",
+#     "yanchor": "top"
+#     },
+#     margin=dict(t=90, b=20, l=40, r=40))
 
 datos_graficos = {
     'tarjeta1': json.loads(tarjetas.to_json()),
