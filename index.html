@@ -22,16 +22,31 @@
             <h2>Política cambiaria en Bolivia</h2>
             <p>En el período 2006 – 2011 el Banco Central de Bolivia generó la política para apreciar la moneda local y frenar la inflación importada, fijando el valor en Bs 6,86 (compra) y Bs 6,96 (venta) hacia noviembre de 2011. No obstante, a partir de la gestión 2023, ante la caída de las reservas internacionales y escasez de dólares se fomentó un mercado paralelo.</p>
             <p>En 26 de junio de 2026 mediante la Resolución Ministerial N.º245 y la normativa del BCB, se abandonó formalmente el tipo de cambio fijo para cambiar aun esquema más flexible determinado por la oferta y demanda del mercado.</p>
-            <p>Asimismo, la Resolución de Directorio N°88/2026 del Banco Central de Bolivia (BCB), aprobada el 26 de junio de 2026, aprueba el nuevo Reglamento de Operaciones Cambiarias y establece las características del nuevo Tipo de Cambio Oficial (T.C.O) en el marco de la transición hacia un régimen cambiario más flexible. El T.C.O. se calcula a través del promedio ponderado de los tipos de cambio y montos tansaccionados por los Bancos Privados, mismo que se resume en la siguiente formula: </p>
-            
-            $$TCO_t = \frac{\sum_{i} p_{it} V_{it}}{\sum_{i} V_{it}}$$
-            <p>Donde: <br>
-            <ul>
-                <strong>\(TCO_t\)</strong> Tipo de Cambio Operativo en el periodo \(t\).<br>
-                <strong>\(p_{it}\)</strong> Precio de la operación \(i\), correspondiente al día \(t\).<br>
-                <strong>\(V_{it}\)</strong> Volumen de dólares estadounidenses en la operacion \(i\), correspondiente al día \(t\).<br>
-            </ul>
-            </p>
+            <div class = "contendor-apartados" style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+                <article class="apartado-normativo" style="flex: 1; min-width: 300px; background-color: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 4px solid #0056b3;">
+                    <h3 style = 'text-align:center'>BCB: RD Nº88/2026 (26-06-2026 a 24-09-2026)</h3>
+                    <p>La Resolución de Directorio N°88/2026 del Banco Central de Bolivia (BCB), aprobada el 26 de junio de 2026, aprueba el nuevo Reglamento de Operaciones Cambiarias y establece las características del nuevo Tipo de Cambio Oficial (T.C.O) en el marco de la transición hacia un régimen cambiario más flexible. El T.C.O. se calcula a través del promedio ponderado de los tipos de cambio y montos tansaccionados por los Bancos Privados, mismo que se resume en la siguiente formula: </p>
+                    $$TCO_t = \frac{\sum_{i} p_{it} V_{it}}{\sum_{i} V_{it}}$$
+                    <p>Donde: <br>
+                    <ul>
+                        <strong>\(TCO_t\)</strong> Tipo de Cambio Operativo en el periodo \(t\).<br>
+                        <strong>\(p_{it}\)</strong> Precio de la operación \(i\), correspondiente al día \(t\).<br>
+                        <strong>\(V_{it}\)</strong> Volumen de dólares estadounidenses en la operacion \(i\), correspondiente al día \(t\).<br>
+                    </ul>
+                    </p>
+                </article>
+                <article class="apartado-normativo" style="flex: 1; min-width: 300px; background-color: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 4px solid #28a745;">
+                    <h3 style="text-align:center">BCB: RD Nº142/2026 (Actual)</h3>
+                    <p>En fecha 24-09-2026 el BCB emitió la Resolución de Directorio Nº142/2026 estableciendo los siguientes cambios:</p>
+                    <ul>
+                        <li>El T.C.O será calculado diariamente como resultado de la mediana ponderada por monto de las operaciones cambiarias de compra realizadas por los Bancos Múltiples, los Bancos PYME y el Banco Público con sus clientes y el BCB.</li>
+                        <li>La publicación del T.C.O. será cada día hábil, a horas 23:30.</li>
+                        <li>Se eliminó la obligación de la venta de dólares americanos hasta 0.10 ctvs por encima del T.C.O.</li>
+                    </ul>
+                    <p>La generalización de la mediana ponderada tiene la siguiente forma: <br>Sea un conjunto de datos ordenados <strong>\(x_{1} < x_{2} < ... < x_{n}\)</strong> con sus respectivos pesos <strong>\(w\)</strong> la mediana ponderada es el valor <strong>\(x_{k}\)</strong> que cumple con las siguientes desigualdades:</p>
+                    $$\sum_{i=1}^{k-1} w_i \le \frac{1}{2} \sum_{i=1}^{n} w_i \quad \text{y} \quad \sum_{i=k+1}^{n} w_i \le \frac{1}{2} \sum_{i=1}^{n} w_i$$
+                </article>
+            </div>
         </section>
 
         <section class="kpi-section">
