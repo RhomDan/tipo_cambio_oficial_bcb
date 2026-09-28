@@ -10,6 +10,9 @@ from plotly.subplots import make_subplots
 import json
 import plotly.utils as putils
 from datetime import timedelta
+import warnings
+
+warnings.filterwarnings('ignore')
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'}
 
@@ -22,6 +25,16 @@ def formato_tabla(data):
     data = data.replace('-', 0)
     data['Monto'] = data['Monto'].astype(float)
     return data
+
+def mediana_ponderada (group):
+    datos = group['TC (En Bs/USD)'].to_numpy()
+    pesos = group['Monto'].to_numpy()
+    indices = np.argsort(datos)
+    datos_ordenados = datos[indices]
+    pesos_ordenados = pesos[indices]
+    pesos_acumulados = np.cumsum(pesos_ordenados)
+    mitad_peso = np.sum(pesos) / 2.0
+    return datos_ordenados[pesos_acumulados >= mitad_peso][0]
 
 url = 'https://www.bcb.gob.bo/bcb_tco_publico_detalle_historico.php'
 session = requests.Session()
@@ -45,7 +58,7 @@ if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
             tabla_formato = tabla_formato.swaplevel(1,0, axis = 1)
             i = 1
             for contador in range(int(tabla_formato.shape[1] / 2)):
-                tabla_temp = tabla_formato.iloc[:,[0] + list(range(i ,i + 2))]
+                tabla_temp = tabla_formato.iloc[:,[0] + list(range(i ,i + 2))].copy()
                 level_0 = tabla_temp.columns[1][1]
                 tabla_temp['banco'] = level_0
                 tabla_temp['fecha'] = url.split('=')[-1]
@@ -56,20 +69,24 @@ if len(fechas[fechas.index(tco_fechas) + 1:]) != 0:
             time.sleep(3)
         except:
             print('NO hay fechas a incorporar', ValueError)
-
 try:
     df_consolidado = pd.concat(objs = [informacion_anterior, df], axis = 0, ignore_index = True)
     df_consolidado['fecha'] = pd.to_datetime(df_consolidado['fecha'])
     df_consolidado.to_csv('df_canasta_bancos_operaciones_usd.csv', index = False)
     dates = pd.date_range(start = df_consolidado['fecha'].min(), end = df_consolidado['fecha'].max() + timedelta(days = 1), freq = 'D')
     dates = pd.DataFrame(dates, columns = ['fecha'])
-    tco = df_consolidado[df_consolidado['banco'] != 'TOTAL BANCOS'].groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).reset_index()
-    tco.columns = ['fecha', 'tco']
-    tco = dates.merge(right = tco, how = 'left', on = 'fecha')
-    tco = tco.ffill()
-    tco['tco'] = tco['tco'].shift(1)
-    tco = tco.bfill()
-    tco.to_csv('tco_diario.csv', index = False)
+    fecha_cambio = pd.to_datetime('2026-09-25')
+    df_consolidado['fecha'] = pd.to_datetime(df_consolidado['fecha'])
+    tco = df_consolidado[(df_consolidado['banco'] != 'TOTAL BANCOS') & (df_consolidado['fecha'] < fecha_cambio)].groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).reset_index()
+    n_tco = df_consolidado[(df_consolidado['banco'] != 'TOTAL BANCOS') & (df_consolidado['fecha'] >= fecha_cambio)].groupby('fecha').apply(mediana_ponderada, include_groups = False)
+    n_tco = n_tco.reset_index()
+    tco_consolidado = pd.concat(objs = [tco, n_tco], axis = 0)
+    tco_consolidado.columns = ['fecha', 'tco']
+    tco_consolidado = dates.merge(right = tco_consolidado, how = 'left', on = 'fecha')
+    tco_consolidado = tco_consolidado.ffill()
+    tco_consolidado['tco'] = tco_consolidado['tco'].shift(1)
+    tco_consolidado = tco_consolidado.bfill()
+    tco_consolidado.to_csv('tco_diario.csv')
 except:
     pass
 
@@ -77,10 +94,8 @@ df_consolidado = pd.read_csv('df_canasta_bancos_operaciones_usd.csv')
 df_consolidado['banco'] = df_consolidado['banco'].apply(lambda x:  ' '.join([nombre[0] + nombre[1:].lower() for nombre in x.split(' ')]))
 df_consolidado['banco'] = df_consolidado['banco'].str.replace('De', 'de').str.replace('La', 'la')
 tco = pd.read_csv('tco_diario.csv')
-montos = df_consolidado.query('banco != "Total Bancos"').groupby('fecha').agg({'Monto':'sum'})
-tipo_cambio = df_consolidado.query('banco != "Total Bancos"').groupby('fecha').apply(lambda x: round(np.average(x['TC (En Bs/USD)'], weights = x['Monto']), 2)).rename('tco')
-df_tco_montos = pd.concat(objs = [tipo_cambio, montos], axis = 1, join = 'inner')
-
+montos = df_consolidado.query('banco != "Total Bancos"').groupby('fecha').agg({'Monto':'sum'}).reset_index()
+df_tco_montos = tco.merge(right = montos, on = 'fecha', how = 'outer')
 grap = make_subplots(specs = [[{'secondary_y': True}]])
 grap.add_trace(go.Scatter(
     x = tco['fecha'],
@@ -95,7 +110,7 @@ grap.add_trace(go.Scatter(
     name = 'TCO'
 ), secondary_y = False)
 grap.add_trace(go.Bar(
-    x = df_tco_montos.index,
+    x = df_tco_montos['fecha'],
     y = df_tco_montos['Monto'],
     opacity = 0.75,
     name = 'Volumen'
@@ -178,8 +193,8 @@ tarjetas.add_trace(
 tarjetas.add_trace(
     go.Indicator(
         mode = 'delta+number',
-        value = df_tco_montos['Monto'].iloc[-1],
-        delta={"reference": df_tco_montos['Monto'].iloc[-2]},
+        value = montos['Monto'].iloc[-1],
+        delta={"reference": montos['Monto'].iloc[-2]},
         title={"text": f"Total transaccionado<br><span style='font-size:1.0em;color:gray'>{pd.to_datetime(tco['fecha'].iloc[-2]).strftime('%d-%b')}</span>", "align": "center"},
         number={"font": {"size": 48}},
     ),

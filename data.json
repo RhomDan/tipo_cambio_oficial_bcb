@@ -15,7 +15,7 @@
                     "align": "center",
                     "text": "T.C.O. para el 26-Sep"
                 },
-                "value": 12.08,
+                "value": 12.05,
                 "type": "indicator",
                 "domain": {
                     "x": [
@@ -468,6 +468,17 @@
                             }
                         }
                     ],
+                    "scattermapbox": [
+                        {
+                            "type": "scattermapbox",
+                            "marker": {
+                                "colorbar": {
+                                    "outlinewidth": 0,
+                                    "ticks": ""
+                                }
+                            }
+                        }
+                    ],
                     "scatterternary": [
                         {
                             "type": "scatterternary",
@@ -816,6 +827,9 @@
                     },
                     "title": {
                         "x": 0.05
+                    },
+                    "mapbox": {
+                        "style": "light"
                     }
                 }
             }
@@ -929,7 +943,7 @@
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "9ihcj8J1I0D2KFyPwnUjQPYoXI/CdSNA9ihcj8J1I0CF61G4HoUjQIXrUbgehSNAj8L1KFyPI0CamZmZmZkjQClcj8L1qCNAKVyPwvWoI0ApXI/C9agjQEjhehSuxyNA7FG4HoXrI0AzMzMzMzMkQHsUrkfheiRAzczMzMzMJEDNzMzMzMwkQM3MzMzMzCRAAAAAAAAAJUBmZmZmZmYlQAAAAAAAgCVAAAAAAACAJUAzMzMzM7MlQDMzMzMzsyVAMzMzMzOzJUDNzMzMzMwlQAAAAAAAACZAw/UoXI9CJkDsUbgehWsmQD0K16NwvSZAPQrXo3C9JkA9CtejcL0mQBSuR+F6FCdAmpmZmZmZJ0BI4XoUrscnQM3MzMzMTChAw/UoXI9CKEDD9Shcj0IoQMP1KFyPQihAKVyPwvUoKEAK16NwPQooQLgehetRuCdAuB6F61G4J0C4HoXrUbgnQLgehetRuCdAuB6F61G4J0AK16NwPYonQOxRuB6FaydAUrgehetRJ0A9CtejcD0nQClcj8L1KCdAKVyPwvUoJ0ApXI/C9SgnQJqZmZmZGSdACtejcD0KJ0AK16NwPQonQArXo3A9CidAAAAAAAAAJ0AAAAAAAAAnQAAAAAAAACdAFK5H4XoUJ0CkcD0K1yMnQOxRuB6FaydAKVyPwvWoJ0DXo3A9CtcnQNejcD0K1ydA16NwPQrXJ0A9CtejcD0oQIXrUbgehShApHA9CtejKEBmZmZmZuYoQClcj8L1KClAKVyPwvUoKUApXI/C9SgpQDMzMzMzMylASOF6FK5HKUDXo3A9CtcoQBSuR+F6FChAj8L1KFwPJ0CPwvUoXA8nQI/C9ShcDydAexSuR+H6JUDNzMzMzEwkQClcj8L1qCNAhetRuB4FJEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkDNzMzMzMwnQB+F61G4HihAhetRuB6FKEBxPQrXo3AoQClcj8L1KChA"
+                    "bdata": "9ihcj8J1I0D2KFyPwnUjQPYoXI/CdSNA9ihcj8J1I0CF61G4HoUjQIXrUbgehSNAj8L1KFyPI0CamZmZmZkjQClcj8L1qCNAKVyPwvWoI0ApXI/C9agjQEjhehSuxyNA7FG4HoXrI0AzMzMzMzMkQHsUrkfheiRAzczMzMzMJEDNzMzMzMwkQM3MzMzMzCRAAAAAAAAAJUBmZmZmZmYlQAAAAAAAgCVAAAAAAACAJUAzMzMzM7MlQDMzMzMzsyVAMzMzMzOzJUDNzMzMzMwlQAAAAAAAACZAw/UoXI9CJkDsUbgehWsmQD0K16NwvSZAPQrXo3C9JkA9CtejcL0mQBSuR+F6FCdAmpmZmZmZJ0BI4XoUrscnQM3MzMzMTChAw/UoXI9CKEDD9Shcj0IoQMP1KFyPQihAKVyPwvUoKEAK16NwPQooQLgehetRuCdAuB6F61G4J0C4HoXrUbgnQLgehetRuCdAuB6F61G4J0AK16NwPYonQOxRuB6FaydAUrgehetRJ0A9CtejcD0nQClcj8L1KCdAKVyPwvUoJ0ApXI/C9SgnQJqZmZmZGSdACtejcD0KJ0AK16NwPQonQArXo3A9CidAAAAAAAAAJ0AAAAAAAAAnQAAAAAAAACdAFK5H4XoUJ0CkcD0K1yMnQOxRuB6FaydAKVyPwvWoJ0DXo3A9CtcnQNejcD0K1ydA16NwPQrXJ0A9CtejcD0oQIXrUbgehShApHA9CtejKEBmZmZmZuYoQClcj8L1KClAKVyPwvUoKUApXI/C9SgpQDMzMzMzMylASOF6FK5HKUDXo3A9CtcoQBSuR+F6FChAj8L1KFwPJ0CPwvUoXA8nQI/C9ShcDydAexSuR+H6JUDNzMzMzEwkQClcj8L1qCNAhetRuB4FJEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkDNzMzMzMwnQB+F61G4HihAhetRuB6FKEBxPQrXo3AoQJqZmZmZGShA"
                 },
                 "type": "scatter",
                 "xaxis": "x",
@@ -941,72 +955,102 @@
                 "opacity": 0.75,
                 "x": [
                     "2026-06-26",
+                    "2026-06-27",
+                    "2026-06-28",
                     "2026-06-29",
                     "2026-06-30",
                     "2026-07-01",
                     "2026-07-02",
                     "2026-07-03",
+                    "2026-07-04",
+                    "2026-07-05",
                     "2026-07-06",
                     "2026-07-07",
                     "2026-07-08",
                     "2026-07-09",
                     "2026-07-10",
+                    "2026-07-11",
+                    "2026-07-12",
                     "2026-07-13",
                     "2026-07-14",
                     "2026-07-15",
+                    "2026-07-16",
                     "2026-07-17",
+                    "2026-07-18",
+                    "2026-07-19",
                     "2026-07-20",
                     "2026-07-21",
                     "2026-07-22",
                     "2026-07-23",
                     "2026-07-24",
+                    "2026-07-25",
+                    "2026-07-26",
                     "2026-07-27",
                     "2026-07-28",
                     "2026-07-29",
                     "2026-07-30",
                     "2026-07-31",
+                    "2026-08-01",
+                    "2026-08-02",
                     "2026-08-03",
                     "2026-08-04",
                     "2026-08-05",
+                    "2026-08-06",
+                    "2026-08-07",
+                    "2026-08-08",
+                    "2026-08-09",
                     "2026-08-10",
                     "2026-08-11",
                     "2026-08-12",
                     "2026-08-13",
                     "2026-08-14",
+                    "2026-08-15",
+                    "2026-08-16",
                     "2026-08-17",
                     "2026-08-18",
                     "2026-08-19",
                     "2026-08-20",
                     "2026-08-21",
+                    "2026-08-22",
+                    "2026-08-23",
                     "2026-08-24",
                     "2026-08-25",
                     "2026-08-26",
                     "2026-08-27",
                     "2026-08-28",
+                    "2026-08-29",
+                    "2026-08-30",
                     "2026-08-31",
                     "2026-09-01",
                     "2026-09-02",
                     "2026-09-03",
                     "2026-09-04",
+                    "2026-09-05",
+                    "2026-09-06",
                     "2026-09-07",
                     "2026-09-08",
                     "2026-09-09",
                     "2026-09-10",
                     "2026-09-11",
+                    "2026-09-12",
+                    "2026-09-13",
                     "2026-09-14",
                     "2026-09-15",
                     "2026-09-16",
                     "2026-09-17",
                     "2026-09-18",
+                    "2026-09-19",
+                    "2026-09-20",
                     "2026-09-21",
                     "2026-09-22",
                     "2026-09-23",
                     "2026-09-24",
-                    "2026-09-25"
+                    "2026-09-25",
+                    "2026-09-26"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAA0FyFkEEAAABwG5OQQQAAAADD04NBAAAAkCt9nEEAAABgoR+UQQAAAHA8EZVBAAAAoD2nhkEAAACA+cCWQQAAAJAVI5tBAAAA4LljnEEAAAAYcJahQQAAAIDt/IVBAAAACKR/pEEAAACA6EmRQQAAABhJCKJBAAAAQNAZjUEAAAAARKyXQQAAABBqnaJBAAAAcMs9m0EAAAAAM0+iQQAAALA5KZRBAAAAGNuGokEAAABQXt2jQQAAAMBGd6JBAAAA0LSgo0EAAACg9C2TQQAAACYBEaNBAAAA+C7XjEEAAACY7eaNQQAAAAj68pZBAAAAWPuNgkEAAAB47BKEQQAAAGAdUYFBAAAAYDTse0EAAAC8c4+QQQAAAIC0WoBBAAAAcBsyf0EAAACA/NtwQQAAABBUjHNBAAAAcGyihUEAAABQ5puHQQAAAICHDHtBAAAAkIvjdEEAAABg1qlyQQAAALg944BBAAAAyFwZiUEAAACQl8J+QQAAAIj8EYtBAAAAgEFMcUEAAADo+jWDQQAAABj9lpZBAAAAII1OfUEAAADgcMNzQQAAAGBiXGtBAAAAqICEgUEAAADQkdB8QQAAAOAbDnRBAAAAMDRtfEEAAABQK2N2QQAAANzNKJNBAAAA8CmCf0EAAAAQOO2DQQAAAMA2HHVB"
+                    "bdata": "AAAA0FyFkEEAAAAAAAD4fwAAAAAAAPh/AAAAcBuTkEEAAAAAw9ODQQAAAJArfZxBAAAAYKEflEEAAABwPBGVQQAAAAAAAPh/AAAAAAAA+H8AAACgPaeGQQAAAID5wJZBAAAAkBUjm0EAAADguWOcQQAAABhwlqFBAAAAAAAA+H8AAAAAAAD4fwAAAIDt/IVBAAAACKR/pEEAAACA6EmRQQAAAAAAAPh/AAAAGEkIokEAAAAAAAD4fwAAAAAAAPh/AAAAQNAZjUEAAAAARKyXQQAAABBqnaJBAAAAcMs9m0EAAAAAM0+iQQAAAAAAAPh/AAAAAAAA+H8AAACwOSmUQQAAABjbhqJBAAAAUF7do0EAAADARneiQQAAANC0oKNBAAAAAAAA+H8AAAAAAAD4fwAAAKD0LZNBAAAAJgERo0EAAAD4LteMQQAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAmO3mjUEAAAAI+vKWQQAAAFj7jYJBAAAAeOwShEEAAABgHVGBQQAAAAAAAPh/AAAAAAAA+H8AAABgNOx7QQAAALxzj5BBAAAAgLRagEEAAABwGzJ/QQAAAID823BBAAAAAAAA+H8AAAAAAAD4fwAAABBUjHNBAAAAcGyihUEAAABQ5puHQQAAAICHDHtBAAAAkIvjdEEAAAAAAAD4fwAAAAAAAPh/AAAAYNapckEAAAC4PeOAQQAAAMhcGYlBAAAAkJfCfkEAAACI/BGLQQAAAAAAAPh/AAAAAAAA+H8AAACAQUxxQQAAAOj6NYNBAAAAGP2WlkEAAAAgjU59QQAAAOBww3NBAAAAAAAA+H8AAAAAAAD4fwAAAGBiXGtBAAAAqICEgUEAAADQkdB8QQAAAOAbDnRBAAAAMDRtfEEAAAAAAAD4fwAAAAAAAPh/AAAAUCtjdkEAAADczSiTQQAAAPApgn9BAAAAEDjtg0EAAADANhx1QQAAAAAAAPh/"
                 },
                 "type": "bar",
                 "xaxis": "x",
@@ -1384,6 +1428,17 @@
                             "type": "scattergl"
                         }
                     ],
+                    "scattermapbox": [
+                        {
+                            "marker": {
+                                "colorbar": {
+                                    "outlinewidth": 0,
+                                    "ticks": ""
+                                }
+                            },
+                            "type": "scattermapbox"
+                        }
+                    ],
                     "scattermap": [
                         {
                             "marker": {
@@ -1683,6 +1738,9 @@
                         "align": "left"
                     },
                     "hovermode": "closest",
+                    "mapbox": {
+                        "style": "light"
+                    },
                     "paper_bgcolor": "white",
                     "plot_bgcolor": "white",
                     "polar": {
@@ -2575,6 +2633,17 @@
                             }
                         }
                     ],
+                    "scattermapbox": [
+                        {
+                            "type": "scattermapbox",
+                            "marker": {
+                                "colorbar": {
+                                    "outlinewidth": 0,
+                                    "ticks": ""
+                                }
+                            }
+                        }
+                    ],
                     "scatterternary": [
                         {
                             "type": "scatterternary",
@@ -2923,6 +2992,9 @@
                     },
                     "title": {
                         "x": 0.05
+                    },
+                    "mapbox": {
+                        "style": "light"
                     }
                 }
             },
@@ -26441,6 +26513,17 @@
                             }
                         }
                     ],
+                    "scattermapbox": [
+                        {
+                            "type": "scattermapbox",
+                            "marker": {
+                                "colorbar": {
+                                    "outlinewidth": 0,
+                                    "ticks": ""
+                                }
+                            }
+                        }
+                    ],
                     "scatterternary": [
                         {
                             "type": "scatterternary",
@@ -26789,6 +26872,9 @@
                     },
                     "title": {
                         "x": 0.05
+                    },
+                    "mapbox": {
+                        "style": "light"
                     }
                 }
             },
