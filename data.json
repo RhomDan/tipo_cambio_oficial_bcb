@@ -468,17 +468,6 @@
                             }
                         }
                     ],
-                    "scattermapbox": [
-                        {
-                            "type": "scattermapbox",
-                            "marker": {
-                                "colorbar": {
-                                    "outlinewidth": 0,
-                                    "ticks": ""
-                                }
-                            }
-                        }
-                    ],
                     "scatterternary": [
                         {
                             "type": "scatterternary",
@@ -827,9 +816,6 @@
                     },
                     "title": {
                         "x": 0.05
-                    },
-                    "mapbox": {
-                        "style": "light"
                     }
                 }
             }
@@ -1428,17 +1414,6 @@
                             "type": "scattergl"
                         }
                     ],
-                    "scattermapbox": [
-                        {
-                            "marker": {
-                                "colorbar": {
-                                    "outlinewidth": 0,
-                                    "ticks": ""
-                                }
-                            },
-                            "type": "scattermapbox"
-                        }
-                    ],
                     "scattermap": [
                         {
                             "marker": {
@@ -1738,9 +1713,6 @@
                         "align": "left"
                     },
                     "hovermode": "closest",
-                    "mapbox": {
-                        "style": "light"
-                    },
                     "paper_bgcolor": "white",
                     "plot_bgcolor": "white",
                     "polar": {
@@ -2633,17 +2605,6 @@
                             }
                         }
                     ],
-                    "scattermapbox": [
-                        {
-                            "type": "scattermapbox",
-                            "marker": {
-                                "colorbar": {
-                                    "outlinewidth": 0,
-                                    "ticks": ""
-                                }
-                            }
-                        }
-                    ],
                     "scatterternary": [
                         {
                             "type": "scatterternary",
@@ -2992,9 +2953,6 @@
                     },
                     "title": {
                         "x": 0.05
-                    },
-                    "mapbox": {
-                        "style": "light"
                     }
                 }
             },
@@ -26513,17 +26471,6 @@
                             }
                         }
                     ],
-                    "scattermapbox": [
-                        {
-                            "type": "scattermapbox",
-                            "marker": {
-                                "colorbar": {
-                                    "outlinewidth": 0,
-                                    "ticks": ""
-                                }
-                            }
-                        }
-                    ],
                     "scatterternary": [
                         {
                             "type": "scatterternary",
@@ -26872,9 +26819,6 @@
                     },
                     "title": {
                         "x": 0.05
-                    },
-                    "mapbox": {
-                        "style": "light"
                     }
                 }
             },
