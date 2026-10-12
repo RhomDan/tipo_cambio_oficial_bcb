@@ -2,7 +2,7 @@ name: update_data
 
 on:
   schedule:
-    - cron: '00 01 * * *'
+    - cron: '00 07 * * *'
   workflow_dispatch:
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
     - name: Instalar librerías
       run: |
         python -m pip install --upgrade pip
-        pip install pandas plotly html5lib beautifulsoup4 requests dash
+        pip install pandas plotly html5lib beautifulsoup4 curl-cffi dash
 
     - name: Ejecutar script de datos
       run: python app.py

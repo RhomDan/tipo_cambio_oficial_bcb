@@ -49,26 +49,99 @@
             </div>
         </section>
 
-        <section class="kpi-section">
-            <div id="plot-kpi" class="card-kpi"></div>
+        <section class="big-numbers-section" style="height: auto; min-height: auto; max-height: max-content; padding: 0; margin: 0;">
+
+            <div class="dashboard-container" style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; padding: 20px; font-family: sans-serif; align-items: stretch; height: auto">
+                
+                <!-- COLUMNA IZQUIERDA: Tarjetas de datos -->
+                <div class="datos-grid" style="display: grid; grid-template-rows: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(3, 1fr); gap: 15px; align-content: stretch">
+                        
+                        <!-- Fila 1 - Tarjeta 1 -->
+                        <div class="card" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-top: 4px solid #0056b3; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4 style="margin: 0; color: #666; font-size: 14px;">Monto Total Operado</h4>
+                            <span id="fecha-monto-transaccionado" style="font-size: 11px; color: #888; font-weight: normal; margin-left: 5px;">(--)</span>
+                            <p id="meta-monto" style="margin: 10px 0 0 0; font-size: 24px; font-weight: bold; color: #333;">Calculando...</p>
+                        </div>
+                        
+                        <!-- Fila 1 - Tarjeta 2 -->
+                        <div class="card" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-top: 4px solid #0056b3; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4 style="margin: 0; color: #666; font-size: 14px;">Promedio \(TCO_t\) de fecha </h4>
+                            <span id="fecha-tco-sub" style="font-size: 11px; color: #888; font-weight: normal; margin-left: 5px;">(--)</span>
+                            <p id="meta-tco" style="margin: 10px 0 0 0; font-size: 24px; font-weight: bold; color: #333;">Calculando...</p>
+                        </div>
+                        
+                        <!-- Fila 1 - Tarjeta 3 -->
+                        <div class="card" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-top: 4px solid #0056b3; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4 style="margin: 0; color: #666; font-size: 14px;">Rango Intercuartílico</h4>
+                            <p id="meta-iqr" style="margin: 10px 0 0 0; font-size: 20px; color: #555; line-height: 1.4;">
+                                \(Q_1\): <span id="val-q1" style="font-weight: bold">--</span> <br>
+                                \(Q_3\): <span id="val-q3" style="font-weight: bold">--</span>
+                            </p>
+                        </div>
+                        
+                        <!-- Fila 2 - Tarjeta 1 -->
+                        <div class="card" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-top: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4 style="margin: 0; color: #666; font-size: 14px;">Banco mayor participación día anterior</h4>
+                            <p id="meta-lider" style="margin: 10px 0 0 0; font-size: 20px; font-weight: bold; color: #28a745;">--</p>
+                        </div>
+                        
+                        <!-- Fila 2 - Tarjeta 2 -->
+                        <div class="card" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-top: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4 style="margin: 0; color: #666; font-size: 14px;">Tipo de Cambio Mínimo transado</h4>
+                            <p id="meta-tc-min" style="margin: 10px 0 0 0; font-size: 20px; font-weight: bold; color: #28a745;">--</p>
+                        </div>
+                        
+                        <!-- Fila 2 - Tarjeta 3 -->
+                        <div class="card" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-top: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4 style="margin: 0; color: #666; font-size: 14px;">Tipo de Cambio Máximo transado</h4>
+                            <p id="meta-tc-max" style="margin: 10px 0 0 0; font-size: 20px; font-weight: bold; color: #28a745;">--</p>
+                        </div>
+                </div>
+            
+                <!-- COLUMNA DERECHA: Gráfico -->
+                <div class="grafico-cotizacion-bancos">
+                    <div id="cotizacion-plot"></div>
+                </div>
+            </div>
         </section>
+<!-- 
+        <section class="kpi-section" >
+            <div id="plot-kpi" class="card-kpi"></div>
+        </section> -->
 
         <!-- Contenedores de los gráficos -->
         <section class="grid-graficos">
             <div id="plot1" class="card"></div>
-            <div id="plot2" class="card"></div>
+            <div class="card-barras">
+                <h3 style="margin: 0 0 1px 0; font-family: sans-serif; text-align: center; color: #333;">
+                    Montos Transaccionados por Bancos
+                </h3>
+                
+                <!-- Contenedor donde Plotly dibuja el gráfico -->
+                <div id="plot2"></div>
+            </div>
             <div id="plot3" class="card grafico-completo"></div>
         </section>
     </main>
 
     <script>
-        // 1. Carga de los gráficos puramente estáticos (Quitamos plot2 de aquí)
         fetch('./data.json')
             .then(response => response.json())
             .then(data => {
-                Plotly.newPlot('plot-kpi', data.tarjeta1.data, data.tarjeta1.layout, {responsive: true, displayModeBar: false});
+                // Plotly.newPlot('plot-kpi', data.tarjeta1.data, data.tarjeta1.layout, {responsive: true, displayModeBar: false});
                 Plotly.newPlot('plot1', data.grafico1.data, data.grafico1.layout, {responsive: true, displayModeBar: false});
                 Plotly.newPlot('plot3', data.grafico3.data, data.grafico3.layout, {responsive: true, displayModeBar: false});
+                document.getElementById('fecha-tco-sub').innerText = `(${data.metricas.fecha_tco})`;
+                document.getElementById('fecha-monto-transaccionado').innerText = `(${data.metricas.fecha_monto_transaccionado})`;
+                document.getElementById('meta-monto').innerText = data.metricas.monto_total;
+                document.getElementById('meta-tco').innerText = data.metricas.tco_promedio;
+                document.getElementById('val-q1').innerText = data.metricas.val_q1;
+                document.getElementById('val-q3').innerText = data.metricas.val_q3;
+                document.getElementById('meta-lider').innerText = data.metricas.banco_lider;
+                document.getElementById('meta-tc-min').innerText = data.metricas.tc_min;
+                document.getElementById('meta-tc-max').innerText = data.metricas.tc_max;
+                Plotly.newPlot('cotizacion-plot', data.cotizacion.data, data.cotizacion.layout, {responsive: true, displayModeBar: false})
+
             })
             .catch(error => console.error('Error cargando los datos estáticos:', error));
 
@@ -77,6 +150,11 @@
             .then(response => response.json())
             .then(figura => {
                 // Renderizamos la base del gráfico animado
+                const contenedor = document.getElementById('plot2');
+                if (figura.layout.height) {
+                    contenedor.style.height = `${figura.layout.height}px`;
+                }
+
                 Plotly.newPlot(
                     'plot2', 
                     figura.data, 
