@@ -309,12 +309,18 @@ tarjetas.add_trace(
 )
 
 monto_ultimo = montos['Monto'].iloc[-1]
-tco_ultimo = df_tco_montos['tco'].iloc[-1]
+tco_ultimo = round(df_tco_montos['tco'].iloc[-1], 2)
 fecha_ultimo_monto = pd.to_datetime(tco['fecha'].iloc[-2]).strftime('%d-%b')
 fecha_tco_ultimo = pd.to_datetime(tco['fecha'].iloc[-1]).strftime('%d-%b')
 banco_lider_ultimo = bancos_montos[bancos_montos['fecha']==bancos_montos['fecha'].max()].sort_values(by = 'Monto', ascending = False).iloc[0,1]
 q1_ultimo = df_tco_total[df_tco_total['fecha'] == df_tco_total['fecha'].max()].iloc[0,4]
 q3_ultimo = df_tco_total[df_tco_total['fecha'] == df_tco_total['fecha'].max()].iloc[0,5]
+if monto_ultimo > 1000000:
+    monto_ultimo_formato = str(round(monto_ultimo / 1000000, 2)) + ' M'
+elif monto_ultimo > 1000:
+    monto_ultimo_formato = str(round(monto_ultimo / 1000, 2)) + ' K'
+else:
+    monto_ultimo_formato = str(round(monto_ultimo, 2))
 
 df = df_consolidado.query('banco != "Total Bancos"').groupby('fecha').agg({'TC (En Bs/USD)':['min', 'max']}).sort_index(ascending = False).reset_index()
 tc_min_ultimo = df.iloc[0,1]
@@ -387,7 +393,7 @@ datos_graficos = {
     "grafico3": json.loads(grap3.to_json()),
     'cotizacion': json.loads(fig_cotizaciones_bancos.to_json()),
     'metricas': {
-        'monto_total': monto_ultimo,
+        'monto_total': monto_ultimo_formato,
         'fecha_monto_transaccionado': fecha_ultimo_monto,
         'tco_promedio': tco_ultimo,
         'fecha_tco': fecha_tco_ultimo,
