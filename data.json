@@ -3,7 +3,7 @@
         "data": [
             {
                 "delta": {
-                    "reference": 11.73
+                    "reference": 11.75
                 },
                 "mode": "delta+number",
                 "number": {
@@ -13,9 +13,9 @@
                 },
                 "title": {
                     "align": "center",
-                    "text": "T.C.O. para el 22-Oct"
+                    "text": "T.C.O. para el 23-Oct"
                 },
-                "value": 11.75,
+                "value": 11.841,
                 "type": "indicator",
                 "domain": {
                     "x": [
@@ -30,7 +30,7 @@
             },
             {
                 "delta": {
-                    "reference": 40954638.62
+                    "reference": 46667088.78
                 },
                 "mode": "delta+number",
                 "number": {
@@ -40,9 +40,9 @@
                 },
                 "title": {
                     "align": "center",
-                    "text": "Total transaccionado<br><span style='font-size:1.0em;color:gray'>21-Oct</span>"
+                    "text": "Total transaccionado<br><span style='font-size:1.0em;color:gray'>22-Oct</span>"
                 },
-                "value": 46667088.78,
+                "value": 32399206.82,
                 "type": "indicator",
                 "domain": {
                     "x": [
@@ -951,11 +951,12 @@
                     "2026-10-19",
                     "2026-10-20",
                     "2026-10-21",
-                    "2026-10-22"
+                    "2026-10-22",
+                    "2026-10-23"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "9ihcj8J1I0D2KFyPwnUjQPYoXI/CdSNA9ihcj8J1I0CF61G4HoUjQIXrUbgehSNAj8L1KFyPI0CamZmZmZkjQClcj8L1qCNAKVyPwvWoI0ApXI/C9agjQEjhehSuxyNA7FG4HoXrI0AzMzMzMzMkQHsUrkfheiRAzczMzMzMJEDNzMzMzMwkQM3MzMzMzCRAAAAAAAAAJUBmZmZmZmYlQAAAAAAAgCVAAAAAAACAJUAzMzMzM7MlQDMzMzMzsyVAMzMzMzOzJUDNzMzMzMwlQAAAAAAAACZAw/UoXI9CJkDsUbgehWsmQD0K16NwvSZAPQrXo3C9JkA9CtejcL0mQBSuR+F6FCdAmpmZmZmZJ0BI4XoUrscnQM3MzMzMTChAw/UoXI9CKEDD9Shcj0IoQMP1KFyPQihAKVyPwvUoKEAK16NwPQooQLgehetRuCdAuB6F61G4J0C4HoXrUbgnQLgehetRuCdAuB6F61G4J0AK16NwPYonQOxRuB6FaydAUrgehetRJ0A9CtejcD0nQClcj8L1KCdAKVyPwvUoJ0ApXI/C9SgnQJqZmZmZGSdACtejcD0KJ0AK16NwPQonQArXo3A9CidAAAAAAAAAJ0AAAAAAAAAnQAAAAAAAACdAFK5H4XoUJ0CkcD0K1yMnQOxRuB6FaydAKVyPwvWoJ0DXo3A9CtcnQNejcD0K1ydA16NwPQrXJ0A9CtejcD0oQIXrUbgehShApHA9CtejKEBmZmZmZuYoQClcj8L1KClAKVyPwvUoKUApXI/C9SgpQDMzMzMzMylASOF6FK5HKUDXo3A9CtcoQBSuR+F6FChAj8L1KFwPJ0CPwvUoXA8nQI/C9ShcDydAexSuR+H6JUDNzMzMzEwkQClcj8L1qCNAhetRuB4FJEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkDNzMzMzMwnQB+F61G4HihAhetRuB6FKEBxPQrXo3AoQJqZmZmZGShAmpmZmZkZKECamZmZmRkoQArXo3A9CihACtejcD0KKEAAAAAAAAAoQM3MzMzMzCdAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAppvEILDyJ0BxPQrXo/AnQDMzMzMzsydAMzMzMzOzJ0AzMzMzM3MnQDMzMzMzcydAMzMzMzNzJ0BmZmZmZmYnQGZmZmZmZidAXI/C9ShcJ0Bcj8L1KFwnQIlBYOXQYidAiUFg5dBiJ0CJQWDl0GInQGZmZmZmZidA9ihcj8J1J0AAAAAAAIAnQA=="
+                    "bdata": "9ihcj8J1I0D2KFyPwnUjQPYoXI/CdSNA9ihcj8J1I0CF61G4HoUjQIXrUbgehSNAj8L1KFyPI0CamZmZmZkjQClcj8L1qCNAKVyPwvWoI0ApXI/C9agjQEjhehSuxyNA7FG4HoXrI0AzMzMzMzMkQHsUrkfheiRAzczMzMzMJEDNzMzMzMwkQM3MzMzMzCRAAAAAAAAAJUBmZmZmZmYlQAAAAAAAgCVAAAAAAACAJUAzMzMzM7MlQDMzMzMzsyVAMzMzMzOzJUDNzMzMzMwlQAAAAAAAACZAw/UoXI9CJkDsUbgehWsmQD0K16NwvSZAPQrXo3C9JkA9CtejcL0mQBSuR+F6FCdAmpmZmZmZJ0BI4XoUrscnQM3MzMzMTChAw/UoXI9CKEDD9Shcj0IoQMP1KFyPQihAKVyPwvUoKEAK16NwPQooQLgehetRuCdAuB6F61G4J0C4HoXrUbgnQLgehetRuCdAuB6F61G4J0AK16NwPYonQOxRuB6FaydAUrgehetRJ0A9CtejcD0nQClcj8L1KCdAKVyPwvUoJ0ApXI/C9SgnQJqZmZmZGSdACtejcD0KJ0AK16NwPQonQArXo3A9CidAAAAAAAAAJ0AAAAAAAAAnQAAAAAAAACdAFK5H4XoUJ0CkcD0K1yMnQOxRuB6FaydAKVyPwvWoJ0DXo3A9CtcnQNejcD0K1ydA16NwPQrXJ0A9CtejcD0oQIXrUbgehShApHA9CtejKEBmZmZmZuYoQClcj8L1KClAKVyPwvUoKUApXI/C9SgpQDMzMzMzMylASOF6FK5HKUDXo3A9CtcoQBSuR+F6FChAj8L1KFwPJ0CPwvUoXA8nQI/C9ShcDydAexSuR+H6JUDNzMzMzEwkQClcj8L1qCNAhetRuB4FJEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkDNzMzMzMwnQB+F61G4HihAhetRuB6FKEBxPQrXo3AoQJqZmZmZGShAmpmZmZkZKECamZmZmRkoQArXo3A9CihACtejcD0KKEAAAAAAAAAoQM3MzMzMzCdAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAppvEILDyJ0BxPQrXo/AnQDMzMzMzsydAMzMzMzOzJ0AzMzMzM3MnQDMzMzMzcydAMzMzMzNzJ0BmZmZmZmYnQGZmZmZmZidAXI/C9ShcJ0Bcj8L1KFwnQIlBYOXQYidAiUFg5dBiJ0CJQWDl0GInQGZmZmZmZidA9ihcj8J1J0AAAAAAAIAnQDvfT42XridA"
                 },
                 "type": "scatter",
                 "xaxis": "x",
@@ -1080,7 +1081,8 @@
                     "11.17 -11.65",
                     "11.19 -11.69",
                     "11.19 -11.74",
-                    "11.19 -11.74"
+                    "11.22 -11.77",
+                    "11.22 -11.77"
                 ]
             },
             {
@@ -1205,11 +1207,12 @@
                     "2026-10-19",
                     "2026-10-20",
                     "2026-10-21",
-                    "2026-10-22"
+                    "2026-10-22",
+                    "2026-10-23"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAA0FyFkEEAAAAAAAD4fwAAAAAAAPh/AAAAcBuTkEEAAAAAw9ODQQAAAJArfZxBAAAAYKEflEEAAABwPBGVQQAAAAAAAPh/AAAAAAAA+H8AAACgPaeGQQAAAID5wJZBAAAAkBUjm0EAAADguWOcQQAAABhwlqFBAAAAAAAA+H8AAAAAAAD4fwAAAIDt/IVBAAAACKR/pEEAAACA6EmRQQAAAAAAAPh/AAAAGEkIokEAAAAAAAD4fwAAAAAAAPh/AAAAQNAZjUEAAAAARKyXQQAAABBqnaJBAAAAcMs9m0EAAAAAM0+iQQAAAAAAAPh/AAAAAAAA+H8AAACwOSmUQQAAABjbhqJBAAAAUF7do0EAAADARneiQQAAANC0oKNBAAAAAAAA+H8AAAAAAAD4fwAAAKD0LZNBAAAAJgERo0EAAAD4LteMQQAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAmO3mjUEAAAAI+vKWQQAAAFj7jYJBAAAAeOwShEEAAABgHVGBQQAAAAAAAPh/AAAAAAAA+H8AAABgNOx7QQAAALxzj5BBAAAAgLRagEEAAABwGzJ/QQAAAID823BBAAAAAAAA+H8AAAAAAAD4fwAAABBUjHNBAAAAcGyihUEAAABQ5puHQQAAAICHDHtBAAAAkIvjdEEAAAAAAAD4fwAAAAAAAPh/AAAAYNapckEAAAC4PeOAQQAAAMhcGYlBAAAAkJfCfkEAAACI/BGLQQAAAAAAAPh/AAAAAAAA+H8AAACAQUxxQQAAAOj6NYNBAAAAGP2WlkEAAAAgjU59QQAAAOBww3NBAAAAAAAA+H8AAAAAAAD4fwAAAGBiXGtBAAAAqICEgUEAAADQkdB8QQAAAOAbDnRBAAAAMDRtfEEAAAAAAAD4fwAAAAAAAPh/AAAAUCtjdkEAAADczSiTQQAAAPApgn9BAAAAEDjtg0EAAADANhx1QQAAAAAAAPh/AAAAAAAA+H8AAADAaQd9QQAAAFjmCIJBAAAAiF+OgEEAAAC4yXaGQQAAAKAwz3xBAAAAAAAA+H8AAAAAAAD4fwAAABAWEX5BAAAAwH4rg0EAAAAILlqEQQAAAOBj9H1BAAAAYDPggkEAAAAAAAD4fwAAAAAAAPh/61G4lj8uY0HXo3BnyRaAQfYoXAMt2YZBpHA96OVHhUEK16Mq7neEQQAAAAAAAPh/AAAAAAAA+H/2KFy/7DR8QY/C9XRYh4NBpHA9hqpAhkEAAAAAAAD4fw=="
+                    "bdata": "AAAA0FyFkEEAAAAAAAD4fwAAAAAAAPh/AAAAcBuTkEEAAAAAw9ODQQAAAJArfZxBAAAAYKEflEEAAABwPBGVQQAAAAAAAPh/AAAAAAAA+H8AAACgPaeGQQAAAID5wJZBAAAAkBUjm0EAAADguWOcQQAAABhwlqFBAAAAAAAA+H8AAAAAAAD4fwAAAIDt/IVBAAAACKR/pEEAAACA6EmRQQAAAAAAAPh/AAAAGEkIokEAAAAAAAD4fwAAAAAAAPh/AAAAQNAZjUEAAAAARKyXQQAAABBqnaJBAAAAcMs9m0EAAAAAM0+iQQAAAAAAAPh/AAAAAAAA+H8AAACwOSmUQQAAABjbhqJBAAAAUF7do0EAAADARneiQQAAANC0oKNBAAAAAAAA+H8AAAAAAAD4fwAAAKD0LZNBAAAAJgERo0EAAAD4LteMQQAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAmO3mjUEAAAAI+vKWQQAAAFj7jYJBAAAAeOwShEEAAABgHVGBQQAAAAAAAPh/AAAAAAAA+H8AAABgNOx7QQAAALxzj5BBAAAAgLRagEEAAABwGzJ/QQAAAID823BBAAAAAAAA+H8AAAAAAAD4fwAAABBUjHNBAAAAcGyihUEAAABQ5puHQQAAAICHDHtBAAAAkIvjdEEAAAAAAAD4fwAAAAAAAPh/AAAAYNapckEAAAC4PeOAQQAAAMhcGYlBAAAAkJfCfkEAAACI/BGLQQAAAAAAAPh/AAAAAAAA+H8AAACAQUxxQQAAAOj6NYNBAAAAGP2WlkEAAAAgjU59QQAAAOBww3NBAAAAAAAA+H8AAAAAAAD4fwAAAGBiXGtBAAAAqICEgUEAAADQkdB8QQAAAOAbDnRBAAAAMDRtfEEAAAAAAAD4fwAAAAAAAPh/AAAAUCtjdkEAAADczSiTQQAAAPApgn9BAAAAEDjtg0EAAADANhx1QQAAAAAAAPh/AAAAAAAA+H8AAADAaQd9QQAAAFjmCIJBAAAAiF+OgEEAAAC4yXaGQQAAAKAwz3xBAAAAAAAA+H8AAAAAAAD4fwAAABAWEX5BAAAAwH4rg0EAAAAILlqEQQAAAOBj9H1BAAAAYDPggkEAAAAAAAD4fwAAAAAAAPh/61G4lj8uY0HXo3BnyRaAQfYoXAMt2YZBpHA96OVHhUEK16Mq7neEQQAAAAAAAPh/AAAAAAAA+H/2KFy/7DR8QY/C9XRYh4NBpHA9hqpAhkFSuB5t9uV+QQAAAAAAAPh/"
                 },
                 "type": "bar",
                 "xaxis": "x",
@@ -1342,11 +1345,12 @@
                     "2026-10-19",
                     "2026-10-20",
                     "2026-10-21",
-                    "2026-10-22"
+                    "2026-10-22",
+                    "2026-10-23"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "exSuR+F6I0B7FK5H4XojQHsUrkfheiNAmpmZmZmZI0AfhetRuJ4jQJqZmZmZmSNApHA9CtejI0DD9Shcj8IjQMP1KFyPwiNAw/UoXI/CI0DXo3A9CtcjQHE9Ctej8CNAMzMzMzMzJEAK16NwPYokQGZmZmZm5iRAZmZmZmbmJEBmZmZmZuYkQArXo3A9CiVAZmZmZmZmJUCamZmZmZklQJqZmZmZmSVAZmZmZmbmJUBmZmZmZuYlQGZmZmZm5iVA16NwPQrXJUCamZmZmRkmQMP1KFyPQiZAhetRuB6FJkDNzMzMzMwmQM3MzMzMzCZAzczMzMzMJkCkcD0K1yMnQI/C9ShcjydAZmZmZmbmJ0DD9Shcj0IoQFyPwvUoXChAXI/C9ShcKEBcj8L1KFwoQGZmZmZmZihAmpmZmZkZKEDNzMzMzMwnQM3MzMzMzCdAzczMzMzMJ0DNzMzMzMwnQM3MzMzMzCdAH4XrUbieJ0AK16NwPYonQAAAAAAAgCdAZmZmZmZmJ0A9CtejcD0nQD0K16NwPSdAPQrXo3A9J0ApXI/C9SgnQD0K16NwPSdAMzMzMzMzJ0AfhetRuB4nQB+F61G4HidAH4XrUbgeJ0AfhetRuB4nQKRwPQrXIydAMzMzMzMzJ0BxPQrXo3AnQClcj8L1qCdAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAKVyPwvUoKECF61G4HoUoQFK4HoXr0ShA7FG4HoXrKEBI4XoUrkcpQEjhehSuRylASOF6FK5HKUApXI/C9SgpQFyPwvUoXClAuB6F61E4KUCkcD0K16MoQNejcD0KVyhA16NwPQpXKEDXo3A9ClcoQIXrUbgeBShAH4XrUbgeJ0CamZmZmRknQM3MzMzMTCVAmpmZmZmZJkCamZmZmZkmQJqZmZmZmSZAXI/C9ShcKEAK16NwPYooQK5H4XoUrihApHA9CtejKEDNzMzMzEwoQM3MzMzMTChAzczMzMxMKEAAAAAAAAAoQHE9Ctej8CdA16NwPQrXJ0DsUbgehesnQHsUrkfh+idAexSuR+H6J0B7FK5H4fonQOxRuB6F6ydAcT0K16PwJ0DXo3A9CtcnQK5H4XoUridArkfhehSuJ0CuR+F6FK4nQK5H4XoUridA7FG4HoVrJ0DsUbgehWsnQOxRuB6FaydAw/UoXI9CJ0Bcj8L1KFwnQFyPwvUoXCdAXI/C9ShcJ0DNzMzMzEwnQOF6FK5HYSdAexSuR+F6J0B7FK5H4XonQA=="
+                    "bdata": "exSuR+F6I0B7FK5H4XojQHsUrkfheiNAmpmZmZmZI0AfhetRuJ4jQJqZmZmZmSNApHA9CtejI0DD9Shcj8IjQMP1KFyPwiNAw/UoXI/CI0DXo3A9CtcjQHE9Ctej8CNAMzMzMzMzJEAK16NwPYokQGZmZmZm5iRAZmZmZmbmJEBmZmZmZuYkQArXo3A9CiVAZmZmZmZmJUCamZmZmZklQJqZmZmZmSVAZmZmZmbmJUBmZmZmZuYlQGZmZmZm5iVA16NwPQrXJUCamZmZmRkmQMP1KFyPQiZAhetRuB6FJkDNzMzMzMwmQM3MzMzMzCZAzczMzMzMJkCkcD0K1yMnQI/C9ShcjydAZmZmZmbmJ0DD9Shcj0IoQFyPwvUoXChAXI/C9ShcKEBcj8L1KFwoQGZmZmZmZihAmpmZmZkZKEDNzMzMzMwnQM3MzMzMzCdAzczMzMzMJ0DNzMzMzMwnQM3MzMzMzCdAH4XrUbieJ0AK16NwPYonQAAAAAAAgCdAZmZmZmZmJ0A9CtejcD0nQD0K16NwPSdAPQrXo3A9J0ApXI/C9SgnQD0K16NwPSdAMzMzMzMzJ0AfhetRuB4nQB+F61G4HidAH4XrUbgeJ0AfhetRuB4nQKRwPQrXIydAMzMzMzMzJ0BxPQrXo3AnQClcj8L1qCdAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAKVyPwvUoKECF61G4HoUoQFK4HoXr0ShA7FG4HoXrKEBI4XoUrkcpQEjhehSuRylASOF6FK5HKUApXI/C9SgpQFyPwvUoXClAuB6F61E4KUCkcD0K16MoQNejcD0KVyhA16NwPQpXKEDXo3A9ClcoQIXrUbgeBShAH4XrUbgeJ0CamZmZmRknQM3MzMzMTCVAmpmZmZmZJkCamZmZmZkmQJqZmZmZmSZAXI/C9ShcKEAK16NwPYooQK5H4XoUrihApHA9CtejKEDNzMzMzEwoQM3MzMzMTChAzczMzMxMKEAAAAAAAAAoQHE9Ctej8CdA16NwPQrXJ0DsUbgehesnQHsUrkfh+idAexSuR+H6J0B7FK5H4fonQOxRuB6F6ydAcT0K16PwJ0DXo3A9CtcnQK5H4XoUridArkfhehSuJ0CuR+F6FK4nQK5H4XoUridA7FG4HoVrJ0DsUbgehWsnQOxRuB6FaydAw/UoXI9CJ0Bcj8L1KFwnQFyPwvUoXCdAXI/C9ShcJ0DNzMzMzEwnQOF6FK5HYSdAexSuR+F6J0AK16NwPYonQArXo3A9iidA"
                 },
                 "type": "scatter",
                 "xaxis": "x",
@@ -1470,7 +1474,8 @@
                     "11.17 -11.65",
                     "11.19 -11.69",
                     "11.19 -11.74",
-                    "11.19 -11.74"
+                    "11.22 -11.77",
+                    "11.22 -11.77"
                 ]
             },
             {
@@ -1602,11 +1607,12 @@
                     "2026-10-19",
                     "2026-10-20",
                     "2026-10-21",
-                    "2026-10-22"
+                    "2026-10-22",
+                    "2026-10-23"
                 ],
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAIUAAAAAAAAAhQAAAAAAAACFAUrgehetRI0BSuB6F61EjQFyPwvUoXCNAXI/C9ShcI0DD9Shcj0IjQMP1KFyPQiNAw/UoXI9CI0AAAAAAAIAjQPYoXI/CdSNAhetRuB6FI0DsUbgehesjQDMzMzMzMyRAMzMzMzMzJEAzMzMzMzMkQDMzMzMzMyRAexSuR+F6JECamZmZmZkkQJqZmZmZmSRAAAAAAAAAJUAAAAAAAAAlQAAAAAAAACVAZmZmZmbmJEBmZmZmZmYlQAAAAAAAgCVAw/UoXI/CJUCF61G4HgUmQIXrUbgeBSZAhetRuB4FJkAAAAAAAAAmQClcj8L1qCZAAAAAAAAAJ0AAAAAAAIAnQEjhehSuxydASOF6FK7HJ0BI4XoUrscnQDMzMzMzMydAcT0K16NwJ0AUrkfhehQnQBSuR+F6FCdAFK5H4XoUJ0AUrkfhehQnQBSuR+F6FCdAuB6F61G4JkCamZmZmZkmQB+F61G4niZAKVyPwvWoJkBxPQrXo3AmQHE9CtejcCZAcT0K16NwJkCuR+F6FC4mQAAAAAAAgCZASOF6FK5HJkBxPQrXo3AmQJqZmZmZmSZAmpmZmZmZJkCamZmZmZkmQArXo3A9CiZAPQrXo3A9JkCamZmZmZkmQHE9Ctej8CZAj8L1KFwPJ0CPwvUoXA8nQI/C9ShcDydASOF6FK5HJ0DNzMzMzEwnQNejcD0K1ydAAAAAAAAAKEDNzMzMzEwoQM3MzMzMTChAzczMzMxMKEAfhetRuB4oQGZmZmZm5idA4XoUrkfhJ0AK16NwPQonQEjhehSuRyZASOF6FK5HJkBI4XoUrkcmQBSuR+F6FCVAzczMzMzMI0A9CtejcD0jQArXo3A9CiNAw/UoXI9CI0DD9Shcj0IjQMP1KFyPQiNAZmZmZmZmJUBcj8L1KFwmQAAAAAAAACdAAAAAAACAJkCuR+F6FC4nQK5H4XoULidArkfhehQuJ0C4HoXrUTgnQFyPwvUo3CZAZmZmZmbmJkCF61G4HgUnQIXrUbgeBSdAhetRuB4FJ0CF61G4HgUnQM3MzMzMzCZAAAAAAAAAJ0BxPQrXo/AmQOxRuB6F6yZAMzMzMzOzJkAzMzMzM7MmQDMzMzMzsyZArkfhehSuJkDNzMzMzEwmQGZmZmZmZiZA4XoUrkdhJkBcj8L1KFwmQFyPwvUoXCZAXI/C9ShcJkDXo3A9ClcmQOF6FK5HYSZA4XoUrkdhJkDhehSuR2EmQA=="
+                    "bdata": "AAAAAAAAIUAAAAAAAAAhQAAAAAAAACFAUrgehetRI0BSuB6F61EjQFyPwvUoXCNAXI/C9ShcI0DD9Shcj0IjQMP1KFyPQiNAw/UoXI9CI0AAAAAAAIAjQPYoXI/CdSNAhetRuB6FI0DsUbgehesjQDMzMzMzMyRAMzMzMzMzJEAzMzMzMzMkQDMzMzMzMyRAexSuR+F6JECamZmZmZkkQJqZmZmZmSRAAAAAAAAAJUAAAAAAAAAlQAAAAAAAACVAZmZmZmbmJEBmZmZmZmYlQAAAAAAAgCVAw/UoXI/CJUCF61G4HgUmQIXrUbgeBSZAhetRuB4FJkAAAAAAAAAmQClcj8L1qCZAAAAAAAAAJ0AAAAAAAIAnQEjhehSuxydASOF6FK7HJ0BI4XoUrscnQDMzMzMzMydAcT0K16NwJ0AUrkfhehQnQBSuR+F6FCdAFK5H4XoUJ0AUrkfhehQnQBSuR+F6FCdAuB6F61G4JkCamZmZmZkmQB+F61G4niZAKVyPwvWoJkBxPQrXo3AmQHE9CtejcCZAcT0K16NwJkCuR+F6FC4mQAAAAAAAgCZASOF6FK5HJkBxPQrXo3AmQJqZmZmZmSZAmpmZmZmZJkCamZmZmZkmQArXo3A9CiZAPQrXo3A9JkCamZmZmZkmQHE9Ctej8CZAj8L1KFwPJ0CPwvUoXA8nQI/C9ShcDydASOF6FK5HJ0DNzMzMzEwnQNejcD0K1ydAAAAAAAAAKEDNzMzMzEwoQM3MzMzMTChAzczMzMxMKEAfhetRuB4oQGZmZmZm5idA4XoUrkfhJ0AK16NwPQonQEjhehSuRyZASOF6FK5HJkBI4XoUrkcmQBSuR+F6FCVAzczMzMzMI0A9CtejcD0jQArXo3A9CiNAw/UoXI9CI0DD9Shcj0IjQMP1KFyPQiNAZmZmZmZmJUBcj8L1KFwmQAAAAAAAACdAAAAAAACAJkCuR+F6FC4nQK5H4XoULidArkfhehQuJ0C4HoXrUTgnQFyPwvUo3CZAZmZmZmbmJkCF61G4HgUnQIXrUbgeBSdAhetRuB4FJ0CF61G4HgUnQM3MzMzMzCZAAAAAAAAAJ0BxPQrXo/AmQOxRuB6F6yZAMzMzMzOzJkAzMzMzM7MmQDMzMzMzsyZArkfhehSuJkDNzMzMzEwmQGZmZmZmZiZA4XoUrkdhJkBcj8L1KFwmQFyPwvUoXCZAXI/C9ShcJkDXo3A9ClcmQOF6FK5HYSZA4XoUrkdhJkBxPQrXo3AmQHE9CtejcCZA"
                 },
                 "type": "scatter",
                 "xaxis": "x",
@@ -1730,7 +1736,8 @@
                     "11.17 -11.65",
                     "11.19 -11.69",
                     "11.19 -11.74",
-                    "11.19 -11.74"
+                    "11.22 -11.77",
+                    "11.22 -11.77"
                 ]
             }
         ],
@@ -2596,7 +2603,7 @@
                 "marker": {
                     "color": [
                         "#2E91E5",
-                        "#B68100",
+                        "#750D86",
                         "#511CFB",
                         "#FB00D1",
                         "#E15F99",
@@ -2625,7 +2632,7 @@
                 "xaxis": "x",
                 "y": {
                     "dtype": "i1",
-                    "bdata": "AAYJCwECAw4MDwQIBQ0="
+                    "bdata": "AAcJCwECAw4MDwQIBQ0="
                 },
                 "yaxis": "y",
                 "type": "bar",
@@ -3448,8 +3455,8 @@
                     "Banco Nacional de Bolivia",
                     "Banco Solidario",
                     "Banco de Crédito",
-                    "Banco Económico",
                     "Banco de Credito",
+                    "Banco Económico",
                     "Banco Union",
                     "Banco Fie",
                     "Banco Economico",
@@ -5248,6 +5255,27 @@
                             ],
                             "label": "21-10",
                             "method": "animate"
+                        },
+                        {
+                            "args": [
+                                [
+                                    "22-10"
+                                ],
+                                {
+                                    "frame": {
+                                        "duration": 0,
+                                        "redraw": true
+                                    },
+                                    "mode": "immediate",
+                                    "fromcurrent": true,
+                                    "transition": {
+                                        "duration": 0,
+                                        "easing": "linear"
+                                    }
+                                }
+                            ],
+                            "label": "22-10",
+                            "method": "animate"
                         }
                     ],
                     "x": 0.1,
@@ -5316,7 +5344,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5345,7 +5373,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5410,7 +5438,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5439,7 +5467,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5504,7 +5532,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5533,7 +5561,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5598,7 +5626,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5627,7 +5655,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5692,7 +5720,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5721,7 +5749,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5786,7 +5814,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5815,7 +5843,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5880,7 +5908,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -5909,7 +5937,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -5974,7 +6002,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6003,7 +6031,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6068,7 +6096,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6097,7 +6125,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6162,7 +6190,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6191,7 +6219,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6256,7 +6284,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6285,7 +6313,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6350,7 +6378,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6379,7 +6407,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6444,7 +6472,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6473,7 +6501,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6538,7 +6566,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6567,7 +6595,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6632,7 +6660,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6661,7 +6689,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6726,7 +6754,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6755,7 +6783,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6820,7 +6848,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6849,7 +6877,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -6914,7 +6942,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -6943,7 +6971,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7008,7 +7036,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7037,7 +7065,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7102,7 +7130,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7131,7 +7159,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7196,7 +7224,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7225,7 +7253,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7290,7 +7318,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7319,7 +7347,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7384,7 +7412,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7413,7 +7441,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7478,7 +7506,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7507,7 +7535,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7572,7 +7600,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7601,7 +7629,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7666,7 +7694,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7695,7 +7723,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7760,7 +7788,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7789,7 +7817,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7854,7 +7882,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7883,7 +7911,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -7948,7 +7976,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -7977,7 +8005,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8042,7 +8070,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8071,7 +8099,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8136,7 +8164,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8165,7 +8193,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8230,7 +8258,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8259,7 +8287,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8324,7 +8352,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8353,7 +8381,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8418,7 +8446,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8447,7 +8475,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8512,7 +8540,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8541,7 +8569,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8606,7 +8634,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8635,7 +8663,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8700,7 +8728,7 @@
                         "marker": {
                             "color": [
                                 "#2E91E5",
-                                "#B68100",
+                                "#750D86",
                                 "#511CFB",
                                 "#FB00D1",
                                 "#E15F99",
@@ -8729,7 +8757,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAYJCwECAw4MDwQIBQ0="
+                            "bdata": "AAcJCwECAw4MDwQIBQ0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8805,7 +8833,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -8823,7 +8851,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8899,7 +8927,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -8917,7 +8945,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -8993,7 +9021,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9011,7 +9039,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9087,7 +9115,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9105,7 +9133,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9181,7 +9209,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9199,7 +9227,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9275,7 +9303,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9293,7 +9321,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9369,7 +9397,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9387,7 +9415,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9463,7 +9491,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9481,7 +9509,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9557,7 +9585,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9575,7 +9603,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9651,7 +9679,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9669,7 +9697,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9745,7 +9773,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9763,7 +9791,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9839,7 +9867,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9857,7 +9885,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -9933,7 +9961,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -9951,7 +9979,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10027,7 +10055,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10045,7 +10073,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10121,7 +10149,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10139,7 +10167,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10215,7 +10243,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10233,7 +10261,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10309,7 +10337,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10327,7 +10355,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10403,7 +10431,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10421,7 +10449,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10497,7 +10525,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10515,7 +10543,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10591,7 +10619,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10609,7 +10637,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10685,7 +10713,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10703,7 +10731,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10779,7 +10807,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10797,7 +10825,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10873,7 +10901,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10891,7 +10919,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -10967,7 +10995,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -10985,7 +11013,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11061,7 +11089,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11079,7 +11107,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11155,7 +11183,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11173,7 +11201,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11249,7 +11277,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11267,7 +11295,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11343,7 +11371,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11361,7 +11389,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11437,7 +11465,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11455,7 +11483,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11531,7 +11559,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11549,7 +11577,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11625,7 +11653,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11643,7 +11671,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11719,7 +11747,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11737,7 +11765,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11813,7 +11841,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11831,7 +11859,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -11907,7 +11935,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -11925,7 +11953,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12001,7 +12029,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12019,7 +12047,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12095,7 +12123,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12113,7 +12141,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12189,7 +12217,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12207,7 +12235,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12283,7 +12311,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12301,7 +12329,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12377,7 +12405,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12395,7 +12423,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12471,7 +12499,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12489,7 +12517,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12565,7 +12593,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12583,7 +12611,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12659,7 +12687,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12677,7 +12705,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12753,7 +12781,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12771,7 +12799,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12847,7 +12875,7 @@
                                 "#778AAE",
                                 "#DA16FF",
                                 "#EB663B",
-                                "#750D86",
+                                "#B68100",
                                 "#B2828D"
                             ],
                             "pattern": {
@@ -12865,7 +12893,7 @@
                         "xaxis": "x",
                         "y": {
                             "dtype": "i1",
-                            "bdata": "AAoJCwECAw4MDwQIBw0="
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
                         },
                         "yaxis": "y",
                         "type": "bar",
@@ -12873,6 +12901,100 @@
                     }
                 ],
                 "name": "21-10",
+                "layout": {
+                    "bargap": 0.15,
+                    "barmode": "overlay"
+                }
+            },
+            {
+                "data": [
+                    {
+                        "customdata": [
+                            [
+                                "Banco Bisa"
+                            ],
+                            [
+                                "Banco Economico"
+                            ],
+                            [
+                                "Banco Fie"
+                            ],
+                            [
+                                "Banco Fortaleza"
+                            ],
+                            [
+                                "Banco Ganadero"
+                            ],
+                            [
+                                "Banco Mercantil Santa Cruz"
+                            ],
+                            [
+                                "Banco Nacional de Bolivia"
+                            ],
+                            [
+                                "Banco Prodem"
+                            ],
+                            [
+                                "Banco Pyme Ecofuturo"
+                            ],
+                            [
+                                "Banco Pyme de la Comunidad"
+                            ],
+                            [
+                                "Banco Solidario"
+                            ],
+                            [
+                                "Banco Union"
+                            ],
+                            [
+                                "Banco de Credito"
+                            ],
+                            [
+                                "Banco de la Nación Argentina"
+                            ]
+                        ],
+                        "hovertemplate": "<b>Banco:</b> %{customdata[0]}<br><b>Monto:</b> %{x:,.0f}<extra></extra>",
+                        "legendgroup": "",
+                        "marker": {
+                            "color": [
+                                "#2E91E5",
+                                "#00A08B",
+                                "#511CFB",
+                                "#FB00D1",
+                                "#E15F99",
+                                "#1CA71C",
+                                "#FB0D0D",
+                                "#6C7C32",
+                                "#FC0080",
+                                "#778AAE",
+                                "#DA16FF",
+                                "#EB663B",
+                                "#B68100",
+                                "#B2828D"
+                            ],
+                            "pattern": {
+                                "shape": ""
+                            }
+                        },
+                        "name": "",
+                        "orientation": "h",
+                        "showlegend": false,
+                        "textposition": "auto",
+                        "x": {
+                            "dtype": "f8",
+                            "bdata": "cT0K51P3WUGamZmZYtgyQaRwPYqz0y9BzczMzLX6IEG4HoULXgNUQc3MzAwQ+FlB9ihcL8aQSUHsUbgelXTTQD0K16NwPeI/j8L1KNwHokDMzMzMm0QsQcP1KFzPJ75AUrge5UhVWEGuR+F6xLLRQA=="
+                        },
+                        "xaxis": "x",
+                        "y": {
+                            "dtype": "i1",
+                            "bdata": "AAoJCwECAw4MDwQIBg0="
+                        },
+                        "yaxis": "y",
+                        "type": "bar",
+                        "width": 0.75
+                    }
+                ],
+                "name": "22-10",
                 "layout": {
                     "bargap": 0.15,
                     "barmode": "overlay"
@@ -12889,7 +13011,7 @@
                     "color": "#636efa",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQAAAIBTamhBAAAAgBHJWEEAAAAY54aIQQAAAKAUbmhBAAAAwFRJXkEAAAAAtlNTQQAAAAADS0tBAAAAgFVIeEEAAAAAj0poQQAAAACswlpBAAAAgPVwSUEAAAAAaIBOQQAAAIDzKFpBAAAAoPCreUEAAABgOBtiQQAAAACYJmJBAAAAACYvPkEAAACA0rtkQQAAAJCLhXpBAAAAwD8NWUEAAABgYy9mQQAAAECN1lpBAAAAsAC9cEEAAACQQrNxQQAAAMCQQl9BAAAAQJDqXUEAAAAABv86QQAAAOjJSIJBAAAAALzAVkEAAACwnSZ4QQAAAADI8ERBAAAAIMG0YkEAAABAEWRUQQAAACDApGNBAAAAkIO7cUEAAAAA5hU9QQAAAIBNE2FBAAAAYEjebEEAAADAeFdRQQAAAMAAOlRBAAAAQNKRWkH1KFwPmP8oQbgehXPCiWNBzMzMbJdCaEFmZmZuS4JpQYXrUWgkf2NBSOF69OMfTUGuR+HK+qJkQbgehfsl+F1B"
+                        "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQAAAIBTamhBAAAAgBHJWEEAAAAY54aIQQAAAKAUbmhBAAAAwFRJXkEAAAAAtlNTQQAAAAADS0tBAAAAgFVIeEEAAAAAj0poQQAAAACswlpBAAAAgPVwSUEAAAAAaIBOQQAAAIDzKFpBAAAAoPCreUEAAABgOBtiQQAAAACYJmJBAAAAACYvPkEAAACA0rtkQQAAAJCLhXpBAAAAwD8NWUEAAABgYy9mQQAAAECN1lpBAAAAsAC9cEEAAACQQrNxQQAAAMCQQl9BAAAAQJDqXUEAAAAABv86QQAAAOjJSIJBAAAAALzAVkEAAACwnSZ4QQAAAADI8ERBAAAAIMG0YkEAAABAEWRUQQAAACDApGNBAAAAkIO7cUEAAAAA5hU9QQAAAIBNE2FBAAAAYEjebEEAAADAeFdRQQAAAMAAOlRBAAAAQNKRWkH1KFwPmP8oQbgehXPCiWNBzMzMbJdCaEFmZmZuS4JpQYXrUWgkf2NBSOF69OMfTUGuR+HK+qJkQbgehfsl+F1BcT0K51P3WUE="
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -12901,12 +13023,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAABAdUAAAAAAAAA0QAAAAAAAgG1AAAAAAACAcUAAAAAAAABrQAAAAAAAgGlAAAAAAACAa0AAAAAAAEBwQAAAAAAAQHVAAAAAAAAAaUAAAAAAAMB2QAAAAAAAAGhAAAAAAAAAZkAAAAAAAABhQAAAAAAAQH5AAAAAAAAAZ0AAAAAAAEB2QAAAAAAAAHhAAAAAAADAd0AAAAAAAIB5QAAAAAAAgGpAAAAAAACAdEAAAAAAAMBxQAAAAAAAgHJAAAAAAAAAbkAAAAAAAMBoQAAAAAAAgF9AAAAAAADgY0AAAAAAAABeQAAAAAAAIGhAAAAAAACAX0AAAAAAAABgQAAAAAAAwF5AAAAAAAAAUEAAAAAAAEBXQAAAAAAAAF9AAAAAAABAV0AAAAAAAGBhQAAAAAAAQFRAAAAAAADAV0AAAAAAAIBgQAAAAAAAAF9AAAAAAABAXUAAAAAAAABZQAAAAAAAgFpAAAAAAADAUkAAAAAAAEBaQAAAAAAAgFxAAAAAAAAATEAAAAAAAMBWQAAAAAAAAGBAAAAAAABAc0AAAAAAANBwQAAAAAAAQGFAAAAAAAAAbkAAAAAAADBwQAAAAAAAAGlAAAAAAABwdUAAAAAAAMBZQAAAAAAA4GxAAAAAAAAgZEAAAAAAAGBpQAAAAAAAgGlAAAAAAABgZEAAAAAAAFBwQAAAAAAAkHdAAAAAAACAeUAAAAAAALB8QAAAAAAAoGtAAAAAAABAekAAAAAAABBzQAAAAAAAUHFAAAAAAADwd0AAAAAAAEBlQAAAAAAAAHZAAAAAAABQekAAAAAAAPByQAAAAAAAwHBAAAAAAADgYkAAAAAAAAB4QAAAAAAAMHRA"
+                    "bdata": "AAAAAABAdUAAAAAAAAA0QAAAAAAAgG1AAAAAAACAcUAAAAAAAABrQAAAAAAAgGlAAAAAAACAa0AAAAAAAEBwQAAAAAAAQHVAAAAAAAAAaUAAAAAAAMB2QAAAAAAAAGhAAAAAAAAAZkAAAAAAAABhQAAAAAAAQH5AAAAAAAAAZ0AAAAAAAEB2QAAAAAAAAHhAAAAAAADAd0AAAAAAAIB5QAAAAAAAgGpAAAAAAACAdEAAAAAAAMBxQAAAAAAAgHJAAAAAAAAAbkAAAAAAAMBoQAAAAAAAgF9AAAAAAADgY0AAAAAAAABeQAAAAAAAIGhAAAAAAACAX0AAAAAAAABgQAAAAAAAwF5AAAAAAAAAUEAAAAAAAEBXQAAAAAAAAF9AAAAAAABAV0AAAAAAAGBhQAAAAAAAQFRAAAAAAADAV0AAAAAAAIBgQAAAAAAAAF9AAAAAAABAXUAAAAAAAABZQAAAAAAAgFpAAAAAAADAUkAAAAAAAEBaQAAAAAAAgFxAAAAAAAAATEAAAAAAAMBWQAAAAAAAAGBAAAAAAABAc0AAAAAAANBwQAAAAAAAQGFAAAAAAAAAbkAAAAAAADBwQAAAAAAAAGlAAAAAAABwdUAAAAAAAMBZQAAAAAAA4GxAAAAAAAAgZEAAAAAAAGBpQAAAAAAAgGlAAAAAAABgZEAAAAAAAFBwQAAAAAAAkHdAAAAAAACAeUAAAAAAALB8QAAAAAAAoGtAAAAAAABAekAAAAAAABBzQAAAAAAAUHFAAAAAAADwd0AAAAAAAEBlQAAAAAAAAHZAAAAAAABQekAAAAAAAPByQAAAAAAAwHBAAAAAAADgYkAAAAAAAAB4QAAAAAAAMHRAAAAAAAAwcUA="
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQAAAIBTamhBAAAAgBHJWEEAAAAY54aIQQAAAKAUbmhBAAAAwFRJXkEAAAAAtlNTQQAAAAADS0tBAAAAgFVIeEEAAAAAj0poQQAAAACswlpBAAAAgPVwSUEAAAAAaIBOQQAAAIDzKFpBAAAAoPCreUEAAABgOBtiQQAAAACYJmJBAAAAACYvPkEAAACA0rtkQQAAAJCLhXpBAAAAwD8NWUEAAABgYy9mQQAAAECN1lpBAAAAsAC9cEEAAACQQrNxQQAAAMCQQl9BAAAAQJDqXUEAAAAABv86QQAAAOjJSIJBAAAAALzAVkEAAACwnSZ4QQAAAADI8ERBAAAAIMG0YkEAAABAEWRUQQAAACDApGNBAAAAkIO7cUEAAAAA5hU9QQAAAIBNE2FBAAAAYEjebEEAAADAeFdRQQAAAMAAOlRBAAAAQNKRWkH1KFwPmP8oQbgehXPCiWNBzMzMbJdCaEFmZmZuS4JpQYXrUWgkf2NBSOF69OMfTUGuR+HK+qJkQbgehfsl+F1B"
+                    "bdata": "AAAAALEwbkEAAAAA6adkQQAAAAC+NldBAAAAoL6QjEEAAAAgJh+AQQAAAAAmaGBBAAAAAAzSa0EAAADAJRh2QQAAAAC7E2xBAAAAgB/FbUEAAAAADnl/QQAAAIDedmFBAAAAoDLThkEAAAAATHEyQQAAAKC4GIBBAAAAAK4CeEEAAABgFECAQQAAAKA+cINBAAAAoM8ShEEAAABAHUGIQQAAAAD7vmtBAAAAAGoPgUEAAACAHiCBQQAAAADsQIlBAAAAQDaje0EAAACAWkJgQQAAAJjadplBAAAAMM3lfEEAAABwSNZyQQAAANRdTZFBAAAAwLV+Z0EAAAAAf1toQQAAAIBTamhBAAAAgBHJWEEAAAAY54aIQQAAAKAUbmhBAAAAwFRJXkEAAAAAtlNTQQAAAAADS0tBAAAAgFVIeEEAAAAAj0poQQAAAACswlpBAAAAgPVwSUEAAAAAaIBOQQAAAIDzKFpBAAAAoPCreUEAAABgOBtiQQAAAACYJmJBAAAAACYvPkEAAACA0rtkQQAAAJCLhXpBAAAAwD8NWUEAAABgYy9mQQAAAECN1lpBAAAAsAC9cEEAAACQQrNxQQAAAMCQQl9BAAAAQJDqXUEAAAAABv86QQAAAOjJSIJBAAAAALzAVkEAAACwnSZ4QQAAAADI8ERBAAAAIMG0YkEAAABAEWRUQQAAACDApGNBAAAAkIO7cUEAAAAA5hU9QQAAAIBNE2FBAAAAYEjebEEAAADAeFdRQQAAAMAAOlRBAAAAQNKRWkH1KFwPmP8oQbgehXPCiWNBzMzMbJdCaEFmZmZuS4JpQYXrUWgkf2NBSOF69OMfTUGuR+HK+qJkQbgehfsl+F1BcT0K51P3WUE="
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -12918,7 +13040,7 @@
                     "color": "#EF553B",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQAAAEDyTGVBAAAAoGAeaEEAAACAtQFYQQAAAADq1E9BAAAAgHpcXEEAAACAu/xUQQAAAMC3i19BAAAAQC0TVEEAAAAg3QtvQQAAAMC05WNBAAAAQL53VkEAAACg1TtjQQAAAOAsYGJBAAAAgOmkUEEAAABApMhgQQAAALA/nXNBAAAAgOijTkEAAADARVBmQQAAAOD9DHJBAAAAAFINUkEAAACAdpxDQQAAAAAPMDVBAAAAAJC8PkEAAAAAgr4wQQAAAACB9DRBAAAAgIPZT0EAAACAIlRaQQAAAIDtHGVBAAAAIMPcbUEAAAAAFz4wQQAAAEBNmVtBAAAAgNJ5W0EAAACAHvhXQQAAAIDY9VNBAAAAwLlgX0EAAAAAF/RRQQAAAMD+/VdBAAAAANq+XEEAAAAASpFXQQAAAEDWPldBAAAAwP/waUFcj8I1wulNQUjheuR0aVtB9ihcrzXQYkFI4Xok7wxiQYTrUUj7MF5BmpmZWTClT0EK16PgSo5iQetRuE6R1WdB"
+                        "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQAAAEDyTGVBAAAAoGAeaEEAAACAtQFYQQAAAADq1E9BAAAAgHpcXEEAAACAu/xUQQAAAMC3i19BAAAAQC0TVEEAAAAg3QtvQQAAAMC05WNBAAAAQL53VkEAAACg1TtjQQAAAOAsYGJBAAAAgOmkUEEAAABApMhgQQAAALA/nXNBAAAAgOijTkEAAADARVBmQQAAAOD9DHJBAAAAAFINUkEAAACAdpxDQQAAAAAPMDVBAAAAAJC8PkEAAAAAgr4wQQAAAACB9DRBAAAAgIPZT0EAAACAIlRaQQAAAIDtHGVBAAAAIMPcbUEAAAAAFz4wQQAAAEBNmVtBAAAAgNJ5W0EAAACAHvhXQQAAAIDY9VNBAAAAwLlgX0EAAAAAF/RRQQAAAMD+/VdBAAAAANq+XEEAAAAASpFXQQAAAEDWPldBAAAAwP/waUFcj8I1wulNQUjheuR0aVtB9ihcrzXQYkFI4Xok7wxiQYTrUUj7MF5BmpmZWTClT0EK16PgSo5iQetRuE6R1WdBuB6FC14DVEE="
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -12930,12 +13052,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAABggkAAAAAAANCpQAAAAAAA4KNAAAAAAACAokAAAAAAADihQAAAAAAAyKFAAAAAAACQoUAAAAAAAAihQAAAAAAAIJJAAAAAAABQkUAAAAAAAMCOQAAAAAAAwItAAAAAAACgjUAAAAAAAMCbQAAAAAAAIJBAAAAAAAAgi0AAAAAAAOCSQAAAAAAAUJBAAAAAAAAQl0AAAAAAAICRQAAAAAAAwIpAAAAAAABwkUAAAAAAAACXQAAAAAAAwJhAAAAAAAAgl0AAAAAAAMB1QAAAAAAACIhAAAAAAACgaEAAAAAAAGBxQAAAAAAAQGZAAAAAAABAcUAAAAAAAABnQAAAAAAAQGVAAAAAAADgZEAAAAAAAABlQAAAAAAAYGFAAAAAAADAYUAAAAAAAEBlQAAAAAAAgGRAAAAAAADAakAAAAAAAOBnQAAAAAAAgHRAAAAAAADAYkAAAAAAACBmQAAAAAAAgG9AAAAAAABAY0AAAAAAAKBiQAAAAAAAkHFAAAAAAAAgY0AAAAAAACBsQAAAAAAAQGZAAAAAAAAAcEAAAAAAACBuQAAAAAAAYGBAAAAAAACgbUAAAAAAAEB6QAAAAAAAsHJAAAAAAAAAcEAAAAAAACBmQAAAAAAAAGhAAAAAAABAaUAAAAAAAMBiQAAAAAAAgGdAAAAAAABgcUAAAAAAAGB2QAAAAAAAwHBAAAAAAAAQeUAAAAAAAFBwQAAAAAAA+IJAAAAAAABQdEAAAAAAACBuQAAAAAAAAHFAAAAAAABAbEAAAAAAAIBvQAAAAAAAIG9AAAAAAABAa0AAAAAAAJB7QAAAAAAAYGpAAAAAAADAb0AAAAAAAEB8QAAAAAAAQGVA"
+                    "bdata": "AAAAAABggkAAAAAAANCpQAAAAAAA4KNAAAAAAACAokAAAAAAADihQAAAAAAAyKFAAAAAAACQoUAAAAAAAAihQAAAAAAAIJJAAAAAAABQkUAAAAAAAMCOQAAAAAAAwItAAAAAAACgjUAAAAAAAMCbQAAAAAAAIJBAAAAAAAAgi0AAAAAAAOCSQAAAAAAAUJBAAAAAAAAQl0AAAAAAAICRQAAAAAAAwIpAAAAAAABwkUAAAAAAAACXQAAAAAAAwJhAAAAAAAAgl0AAAAAAAMB1QAAAAAAACIhAAAAAAACgaEAAAAAAAGBxQAAAAAAAQGZAAAAAAABAcUAAAAAAAABnQAAAAAAAQGVAAAAAAADgZEAAAAAAAABlQAAAAAAAYGFAAAAAAADAYUAAAAAAAEBlQAAAAAAAgGRAAAAAAADAakAAAAAAAOBnQAAAAAAAgHRAAAAAAADAYkAAAAAAACBmQAAAAAAAgG9AAAAAAABAY0AAAAAAAKBiQAAAAAAAkHFAAAAAAAAgY0AAAAAAACBsQAAAAAAAQGZAAAAAAAAAcEAAAAAAACBuQAAAAAAAYGBAAAAAAACgbUAAAAAAAEB6QAAAAAAAsHJAAAAAAAAAcEAAAAAAACBmQAAAAAAAAGhAAAAAAABAaUAAAAAAAMBiQAAAAAAAgGdAAAAAAABgcUAAAAAAAGB2QAAAAAAAwHBAAAAAAAAQeUAAAAAAAFBwQAAAAAAA+IJAAAAAAABQdEAAAAAAACBuQAAAAAAAAHFAAAAAAABAbEAAAAAAAIBvQAAAAAAAIG9AAAAAAABAa0AAAAAAAJB7QAAAAAAAYGpAAAAAAADAb0AAAAAAAEB8QAAAAAAAQGVAAAAAAABgbkA="
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQAAAEDyTGVBAAAAoGAeaEEAAACAtQFYQQAAAADq1E9BAAAAgHpcXEEAAACAu/xUQQAAAMC3i19BAAAAQC0TVEEAAAAg3QtvQQAAAMC05WNBAAAAQL53VkEAAACg1TtjQQAAAOAsYGJBAAAAgOmkUEEAAABApMhgQQAAALA/nXNBAAAAgOijTkEAAADARVBmQQAAAOD9DHJBAAAAAFINUkEAAACAdpxDQQAAAAAPMDVBAAAAAJC8PkEAAAAAgr4wQQAAAACB9DRBAAAAgIPZT0EAAACAIlRaQQAAAIDtHGVBAAAAIMPcbUEAAAAAFz4wQQAAAEBNmVtBAAAAgNJ5W0EAAACAHvhXQQAAAIDY9VNBAAAAwLlgX0EAAAAAF/RRQQAAAMD+/VdBAAAAANq+XEEAAAAASpFXQQAAAEDWPldBAAAAwP/waUFcj8I1wulNQUjheuR0aVtB9ihcrzXQYkFI4Xok7wxiQYTrUUj7MF5BmpmZWTClT0EK16PgSo5iQetRuE6R1WdB"
+                    "bdata": "AAAAgLY9Z0EAAAAAGkRaQQAAAAAtUGVBAAAAAFqQdkEAAAAA7Tp1QQAAACA7HIBBAAAAAKzhWUEAAADAhPB3QQAAAMDXG3lBAAAAAC5Qb0EAAAAAkpZqQQAAAADx0FdBAAAAgCLTc0EAAABAogp7QQAAAOB3GYNBAAAAwLBfcEEAAACA2IJwQQAAACBzuINBAAAAQOIxekEAAAAg5VaCQQAAAACVxG9BAAAA4LejhUEAAACAVABtQQAAAODYYIVBAAAAgGPvgkEAAACAisZwQQAAAGDUQGlBAAAAICcAaUEAAABg2hF5QQAAAEDZl2ZBAAAAgOT5X0EAAACAOQ5WQQAAAEDyTGVBAAAAoGAeaEEAAACAtQFYQQAAAADq1E9BAAAAgHpcXEEAAACAu/xUQQAAAMC3i19BAAAAQC0TVEEAAAAg3QtvQQAAAMC05WNBAAAAQL53VkEAAACg1TtjQQAAAOAsYGJBAAAAgOmkUEEAAABApMhgQQAAALA/nXNBAAAAgOijTkEAAADARVBmQQAAAOD9DHJBAAAAAFINUkEAAACAdpxDQQAAAAAPMDVBAAAAAJC8PkEAAAAAgr4wQQAAAACB9DRBAAAAgIPZT0EAAACAIlRaQQAAAIDtHGVBAAAAIMPcbUEAAAAAFz4wQQAAAEBNmVtBAAAAgNJ5W0EAAACAHvhXQQAAAIDY9VNBAAAAwLlgX0EAAAAAF/RRQQAAAMD+/VdBAAAAANq+XEEAAAAASpFXQQAAAEDWPldBAAAAwP/waUFcj8I1wulNQUjheuR0aVtB9ihcrzXQYkFI4Xok7wxiQYTrUUj7MF5BmpmZWTClT0EK16PgSo5iQetRuE6R1WdBuB6FC14DVEE="
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -12947,7 +13069,7 @@
                     "color": "#00cc96",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQAAAEAaE1VBAAAAAA/uTEEAAACA075PQQAAAKA/vGZBAAAAAJCZTEEAAAAAvwAzQQAAAAD3VDFBAAAAwIKrWkEAAABgxW1gQQAAAAD9TUJBAAAAgBieSEEAAAAAAPUuQQAAAABEpTNBAAAAgP8MSkEAAAAAEjA9QQAAAKDU82NBAAAAABxrUEEAAAAA3HJKQQAAAACL3WNBAAAAIJIyYkEAAAAA1GQiQQAAAADseRBBAAAAALkKP0EAAAAAz7o1QQAAAABGLT9BAAAAgBOhWUEAAABAV2lRQQAAAMBOTF1BAAAAAKYnM0EAAAAAYWpfQQAAAEAhwVNBAAAAANJhR0EAAADgIRJhQQAAAECbWlZBAAAAQJuGY0EAAACA28hWQQAAAIBwWFRBAAAAAHZGWEEAAABgGsNkQQAAAAABZjVBAAAAgFeRTUGuR+F6k/EpQZqZmRkZyk1BFK5HMXdkVkG4HoXL/ZtJQXA9Cgdj+GRBR+F6JFunWEFmZmYW4U5aQQrXo7DrRT5B"
+                        "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQAAAEAaE1VBAAAAAA/uTEEAAACA075PQQAAAKA/vGZBAAAAAJCZTEEAAAAAvwAzQQAAAAD3VDFBAAAAwIKrWkEAAABgxW1gQQAAAAD9TUJBAAAAgBieSEEAAAAAAPUuQQAAAABEpTNBAAAAgP8MSkEAAAAAEjA9QQAAAKDU82NBAAAAABxrUEEAAAAA3HJKQQAAAACL3WNBAAAAIJIyYkEAAAAA1GQiQQAAAADseRBBAAAAALkKP0EAAAAAz7o1QQAAAABGLT9BAAAAgBOhWUEAAABAV2lRQQAAAMBOTF1BAAAAAKYnM0EAAAAAYWpfQQAAAEAhwVNBAAAAANJhR0EAAADgIRJhQQAAAECbWlZBAAAAQJuGY0EAAACA28hWQQAAAIBwWFRBAAAAAHZGWEEAAABgGsNkQQAAAAABZjVBAAAAgFeRTUGuR+F6k/EpQZqZmRkZyk1BFK5HMXdkVkG4HoXL/ZtJQXA9Cgdj+GRBR+F6JFunWEFmZmYW4U5aQQrXo7DrRT5BzczMDBD4WUE="
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -12959,12 +13081,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAVkAAAAAAAOCNQAAAAAAAIIZAAAAAAACAlkAAAAAAACCIQAAAAAAAwIJAAAAAAACAikAAAAAAAKCBQAAAAAAAQIRAAAAAAACggEAAAAAAACCKQAAAAAAAIIhAAAAAAABghEAAAAAAAACKQAAAAAAAIIVAAAAAAABAg0AAAAAAAECBQAAAAAAAkJNAAAAAAACAiEAAAAAAAKCLQAAAAAAA4I1AAAAAAADgiUAAAAAAAECNQAAAAAAAIJFAAAAAAACgk0AAAAAAALiRQAAAAAAA0HtAAAAAAADwcUAAAAAAAIBrQAAAAAAAgGtAAAAAAAAgY0AAAAAAAABnQAAAAAAAYGVAAAAAAABAZEAAAAAAAOBkQAAAAAAAgGVAAAAAAAAgZkAAAAAAAOBoQAAAAAAAAG1AAAAAAACgbkAAAAAAAEBoQAAAAAAAQGVAAAAAAADgcEAAAAAAAIBrQAAAAAAAgE5AAAAAAACgakAAAAAAAOBrQAAAAAAAcHZAAAAAAADgakAAAAAAAIBqQAAAAAAAgGxAAAAAAADwdkAAAAAAANKuQAAAAAAAoGFAAAAAAAAgY0AAAAAAAEBiQAAAAAAAwF5AAAAAAAAds0AAAAAAAKBiQAAAAAAA4HJAAAAAAAAgZEAAAAAAAGBjQAAAAAAA4G1AAAAAAABgckAAAAAAALByQAAAAAAAQHFAAAAAAADAbUAAAAAAAJBwQAAAAAAAoGdAAAAAAAAwekAAAAAAAGBwQAAAAAAAQGhAAAAAAABwcEAAAAAAAOBgQAAAAAAAgGtAAAAAAABAakAAAAAAAMBuQAAAAAAAgGxAAAAAAADAZkAAAAAAAIBtQAAAAAAA4G1A"
+                    "bdata": "AAAAAAAAVkAAAAAAAOCNQAAAAAAAIIZAAAAAAACAlkAAAAAAACCIQAAAAAAAwIJAAAAAAACAikAAAAAAAKCBQAAAAAAAQIRAAAAAAACggEAAAAAAACCKQAAAAAAAIIhAAAAAAABghEAAAAAAAACKQAAAAAAAIIVAAAAAAABAg0AAAAAAAECBQAAAAAAAkJNAAAAAAACAiEAAAAAAAKCLQAAAAAAA4I1AAAAAAADgiUAAAAAAAECNQAAAAAAAIJFAAAAAAACgk0AAAAAAALiRQAAAAAAA0HtAAAAAAADwcUAAAAAAAIBrQAAAAAAAgGtAAAAAAAAgY0AAAAAAAABnQAAAAAAAYGVAAAAAAABAZEAAAAAAAOBkQAAAAAAAgGVAAAAAAAAgZkAAAAAAAOBoQAAAAAAAAG1AAAAAAACgbkAAAAAAAEBoQAAAAAAAQGVAAAAAAADgcEAAAAAAAIBrQAAAAAAAgE5AAAAAAACgakAAAAAAAOBrQAAAAAAAcHZAAAAAAADgakAAAAAAAIBqQAAAAAAAgGxAAAAAAADwdkAAAAAAANKuQAAAAAAAoGFAAAAAAAAgY0AAAAAAAEBiQAAAAAAAwF5AAAAAAAAds0AAAAAAAKBiQAAAAAAA4HJAAAAAAAAgZEAAAAAAAGBjQAAAAAAA4G1AAAAAAABgckAAAAAAALByQAAAAAAAQHFAAAAAAADAbUAAAAAAAJBwQAAAAAAAoGdAAAAAAAAwekAAAAAAAGBwQAAAAAAAQGhAAAAAAABwcEAAAAAAAOBgQAAAAAAAgGtAAAAAAABAakAAAAAAAMBuQAAAAAAAgGxAAAAAAADAZkAAAAAAAIBtQAAAAAAA4G1AAAAAAACweEA="
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQAAAEAaE1VBAAAAAA/uTEEAAACA075PQQAAAKA/vGZBAAAAAJCZTEEAAAAAvwAzQQAAAAD3VDFBAAAAwIKrWkEAAABgxW1gQQAAAAD9TUJBAAAAgBieSEEAAAAAAPUuQQAAAABEpTNBAAAAgP8MSkEAAAAAEjA9QQAAAKDU82NBAAAAABxrUEEAAAAA3HJKQQAAAACL3WNBAAAAIJIyYkEAAAAA1GQiQQAAAADseRBBAAAAALkKP0EAAAAAz7o1QQAAAABGLT9BAAAAgBOhWUEAAABAV2lRQQAAAMBOTF1BAAAAAKYnM0EAAAAAYWpfQQAAAEAhwVNBAAAAANJhR0EAAADgIRJhQQAAAECbWlZBAAAAQJuGY0EAAACA28hWQQAAAIBwWFRBAAAAAHZGWEEAAABgGsNkQQAAAAABZjVBAAAAgFeRTUGuR+F6k/EpQZqZmRkZyk1BFK5HMXdkVkG4HoXL/ZtJQXA9Cgdj+GRBR+F6JFunWEFmZmYW4U5aQQrXo7DrRT5B"
+                    "bdata": "AAAAgKYJaEEAAADgxMCCQQAAAAB8FlNBAAAAAKzUOEEAAAAASqRMQQAAAIDAIG1BAAAAAJ9iY0EAAAAAQsZPQQAAAEB5M4ZBAAAAYGTagkEAAAAA9G5IQQAAAIASnmtBAAAAgHN5jEEAAAAAWoJMQQAAAIDwqHhBAAAAANygTkEAAAAASkdEQQAAAAB96mdBAAAAAJWPbEEAAAAA7iRJQQAAAIC8GGhBAAAAQGmOckEAAAAAveZsQQAAAIBwW2FBAAAAACu9dUEAAADgsUtjQQAAAACbCFRBAAAAQGOWWUEAAADg9wdiQQAAAAB2TDFBAAAAAMpBU0EAAACgvqNkQQAAAEAaE1VBAAAAAA/uTEEAAACA075PQQAAAKA/vGZBAAAAAJCZTEEAAAAAvwAzQQAAAAD3VDFBAAAAwIKrWkEAAABgxW1gQQAAAAD9TUJBAAAAgBieSEEAAAAAAPUuQQAAAABEpTNBAAAAgP8MSkEAAAAAEjA9QQAAAKDU82NBAAAAABxrUEEAAAAA3HJKQQAAAACL3WNBAAAAIJIyYkEAAAAA1GQiQQAAAADseRBBAAAAALkKP0EAAAAAz7o1QQAAAABGLT9BAAAAgBOhWUEAAABAV2lRQQAAAMBOTF1BAAAAAKYnM0EAAAAAYWpfQQAAAEAhwVNBAAAAANJhR0EAAADgIRJhQQAAAECbWlZBAAAAQJuGY0EAAACA28hWQQAAAIBwWFRBAAAAAHZGWEEAAABgGsNkQQAAAAABZjVBAAAAgFeRTUGuR+F6k/EpQZqZmRkZyk1BFK5HMXdkVkG4HoXL/ZtJQXA9Cgdj+GRBR+F6JFunWEFmZmYW4U5aQQrXo7DrRT5BzczMDBD4WUE="
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -12976,7 +13098,7 @@
                     "color": "#ab63fa",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQAAAABWsjFBAAAAALGMQkEAAAAAFo0+QQAAAABc6RJBAAAAwOY4U0EAAAAAt9Y3QQAAAAC4+zpBAAAAAOtrOEEAAACAstZSQQAAAADRpDJBAAAAAIdZOEEAAAAA+OwwQQAAAEBDdFBBAAAAAP1UPEEAAACA6KlIQQAAAMAcPlFBAAAAADnTS0EAAAAA8bE6QQAAAABrYVVBAAAAAECUKEEAAAAAqUk6QQAAAAD06B9BAAAAAGCrHkEAAAAA/N07QQAAAACaMkxBAAAAgLaOQ0EAAACAMkREQQAAAMDoilJBAAAAAIbnQEEAAAAACltFQQAAAIAdOEdBAAAAAMeDQkEAAAAAeco8QQAAAAAreEVBAAAAADZ8PEEAAAAAx7UxQQAAAICsf0JBAAAAALOrMkEAAAAAo/FKQQAAAICO3kdBAAAAAIJ5R0H2KFwPlq4vQY/C9ajUek5BhetR2L0gR0HNzMyMx35JQa5H4brklkdBrkfhOmj1PUH2KFwPfqdDQRWuR2GBdkZB"
+                        "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQAAAABWsjFBAAAAALGMQkEAAAAAFo0+QQAAAABc6RJBAAAAwOY4U0EAAAAAt9Y3QQAAAAC4+zpBAAAAAOtrOEEAAACAstZSQQAAAADRpDJBAAAAAIdZOEEAAAAA+OwwQQAAAEBDdFBBAAAAAP1UPEEAAACA6KlIQQAAAMAcPlFBAAAAADnTS0EAAAAA8bE6QQAAAABrYVVBAAAAAECUKEEAAAAAqUk6QQAAAAD06B9BAAAAAGCrHkEAAAAA/N07QQAAAACaMkxBAAAAgLaOQ0EAAACAMkREQQAAAMDoilJBAAAAAIbnQEEAAAAACltFQQAAAIAdOEdBAAAAAMeDQkEAAAAAeco8QQAAAAAreEVBAAAAADZ8PEEAAAAAx7UxQQAAAICsf0JBAAAAALOrMkEAAAAAo/FKQQAAAICO3kdBAAAAAIJ5R0H2KFwPlq4vQY/C9ajUek5BhetR2L0gR0HNzMyMx35JQa5H4brklkdBrkfhOmj1PUH2KFwPfqdDQRWuR2GBdkZB9ihcL8aQSUE="
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -12988,12 +13110,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAIEAAAAAAAJCSQAAAAAAAoIdAAAAAAABgv0AAAAAAADSxQAAAAAAAzLBAAAAAAACAhUAAAAAAAOCDQAAAAAAAgIlAAAAAAADAikAAAAAAACCMQAAAAAAAQI5AAAAAAAAghkAAAAAAALCSQAAAAAAAQJBAAAAAAADAi0AAAAAAAICNQAAAAAAAcJBAAAAAAACAi0AAAAAAAICQQAAAAAAA4I9AAAAAAACAkEAAAAAAAICRQAAAAAAAUJRAAAAAAACgmUAAAAAAAOSVQAAAAAAA6IBAAAAAAABQgUAAAAAAAKiAQAAAAAAAMHJAAAAAAAAQcUAAAAAAAEBsQAAAAAAAYG9AAAAAAAAwcEAAAAAAAMBoQAAAAAAAYG1AAAAAAABAb0AAAAAAAOBtQAAAAAAAgHBAAAAAAABgcUAAAAAAAEByQAAAAAAAIHBAAAAAAADQcEAAAAAAADB5QAAAAAAAcHlAAAAAAABgeUAAAAAAACB0QAAAAAAAMH1AAAAAAABAfUAAAAAAALB4QAAAAAAAoHZAAAAAAACgckAAAAAAAABxQAAAAAAAwGZAAAAAAAAAbkAAAAAAAGBlQAAAAAAAoGRAAAAAAADgaUAAAAAAAMBrQAAAAAAA4HNAAAAAAACAcUAAAAAAAOBrQAAAAAAAcHVAAAAAAAAgeEAAAAAAAPB8QAAAAAAA4H5AAAAAAAAgbUAAAAAAAAB4QAAAAAAAYHVAAAAAAADgdEAAAAAAAPBxQAAAAAAA8HNAAAAAAAAgdEAAAAAAAKByQAAAAAAA8HFAAAAAAADgdEAAAAAAAJB2QAAAAAAA0HJAAAAAAAAAc0AAAAAAAGB1QAAAAAAA8HFA"
+                    "bdata": "AAAAAAAAIEAAAAAAAJCSQAAAAAAAoIdAAAAAAABgv0AAAAAAADSxQAAAAAAAzLBAAAAAAACAhUAAAAAAAOCDQAAAAAAAgIlAAAAAAADAikAAAAAAACCMQAAAAAAAQI5AAAAAAAAghkAAAAAAALCSQAAAAAAAQJBAAAAAAADAi0AAAAAAAICNQAAAAAAAcJBAAAAAAACAi0AAAAAAAICQQAAAAAAA4I9AAAAAAACAkEAAAAAAAICRQAAAAAAAUJRAAAAAAACgmUAAAAAAAOSVQAAAAAAA6IBAAAAAAABQgUAAAAAAAKiAQAAAAAAAMHJAAAAAAAAQcUAAAAAAAEBsQAAAAAAAYG9AAAAAAAAwcEAAAAAAAMBoQAAAAAAAYG1AAAAAAABAb0AAAAAAAOBtQAAAAAAAgHBAAAAAAABgcUAAAAAAAEByQAAAAAAAIHBAAAAAAADQcEAAAAAAADB5QAAAAAAAcHlAAAAAAABgeUAAAAAAACB0QAAAAAAAMH1AAAAAAABAfUAAAAAAALB4QAAAAAAAoHZAAAAAAACgckAAAAAAAABxQAAAAAAAwGZAAAAAAAAAbkAAAAAAAGBlQAAAAAAAoGRAAAAAAADgaUAAAAAAAMBrQAAAAAAA4HNAAAAAAACAcUAAAAAAAOBrQAAAAAAAcHVAAAAAAAAgeEAAAAAAAPB8QAAAAAAA4H5AAAAAAAAgbUAAAAAAAAB4QAAAAAAAYHVAAAAAAADgdEAAAAAAAPBxQAAAAAAA8HNAAAAAAAAgdEAAAAAAAKByQAAAAAAA8HFAAAAAAADgdEAAAAAAAJB2QAAAAAAA0HJAAAAAAAAAc0AAAAAAAGB1QAAAAAAA8HFAAAAAAAAgdUA="
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQAAAABWsjFBAAAAALGMQkEAAAAAFo0+QQAAAABc6RJBAAAAwOY4U0EAAAAAt9Y3QQAAAAC4+zpBAAAAAOtrOEEAAACAstZSQQAAAADRpDJBAAAAAIdZOEEAAAAA+OwwQQAAAEBDdFBBAAAAAP1UPEEAAACA6KlIQQAAAMAcPlFBAAAAADnTS0EAAAAA8bE6QQAAAABrYVVBAAAAAECUKEEAAAAAqUk6QQAAAAD06B9BAAAAAGCrHkEAAAAA/N07QQAAAACaMkxBAAAAgLaOQ0EAAACAMkREQQAAAMDoilJBAAAAAIbnQEEAAAAACltFQQAAAIAdOEdBAAAAAMeDQkEAAAAAeco8QQAAAAAreEVBAAAAADZ8PEEAAAAAx7UxQQAAAICsf0JBAAAAALOrMkEAAAAAo/FKQQAAAICO3kdBAAAAAIJ5R0H2KFwPlq4vQY/C9ajUek5BhetR2L0gR0HNzMyMx35JQa5H4brklkdBrkfhOmj1PUH2KFwPfqdDQRWuR2GBdkZB"
+                    "bdata": "AAAAANX6VUEAAAAAHLFVQQAAAADsFT5BAAAAgJm9ZkEAAAAAR5ZjQQAAAAB1hmBBAAAAAOi/IkEAAAAA4lh2QQAAAACMg2tBAAAAAFn7a0EAAACA45+DQQAAAAAsAztBAAAAACT5N0EAAAAAx6JlQQAAAMAfJn5BAAAAAGAPMEEAAAAAWapRQQAAAEB12XlBAAAAgMEibEEAAAAABy56QQAAAADo9z5BAAAAAMYvY0EAAACg+lqIQQAAAACJolZBAAAAwGPseUEAAAAA9I5fQQAAAGBaV2xBAAAAgKbSTkEAAAAAZuZEQQAAAAC2xitBAAAAgBqFR0EAAACA6OhFQQAAAABWsjFBAAAAALGMQkEAAAAAFo0+QQAAAABc6RJBAAAAwOY4U0EAAAAAt9Y3QQAAAAC4+zpBAAAAAOtrOEEAAACAstZSQQAAAADRpDJBAAAAAIdZOEEAAAAA+OwwQQAAAEBDdFBBAAAAAP1UPEEAAACA6KlIQQAAAMAcPlFBAAAAADnTS0EAAAAA8bE6QQAAAABrYVVBAAAAAECUKEEAAAAAqUk6QQAAAAD06B9BAAAAAGCrHkEAAAAA/N07QQAAAACaMkxBAAAAgLaOQ0EAAACAMkREQQAAAMDoilJBAAAAAIbnQEEAAAAACltFQQAAAIAdOEdBAAAAAMeDQkEAAAAAeco8QQAAAAAreEVBAAAAADZ8PEEAAAAAx7UxQQAAAICsf0JBAAAAALOrMkEAAAAAo/FKQQAAAICO3kdBAAAAAIJ5R0H2KFwPlq4vQY/C9ajUek5BhetR2L0gR0HNzMyMx35JQa5H4brklkdBrkfhOmj1PUH2KFwPfqdDQRWuR2GBdkZB9ihcL8aQSUE="
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -13005,7 +13127,7 @@
                     "color": "#FFA15A",
                     "size": {
                         "dtype": "f8",
-                        "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQAAAAABARu1AAAAAAOCv7EAAAAAA4NXtQAAAAAAQn/NAAAAAALBF9UAAAAAAAGqtQAAAAAAAOrtAAAAAAAAUrUAAAAAAAMK2QAAAAAAACdFAAAAAABxgIUEAAAAAAH6uQAAAAAAAN7JAAAAAAADCDUEAAAAAAHifQAAAAABAS+BAAAAAAADEo0AAAADAuaFRQQAAAAAekmNBAAAAAKAR9EAAAAAAAGisQAAAAAAAs9VAAAAAAKAlIEEAAAAAkG//QAAAAACAQ8lAAAAAADAF9UAAAAAAgP/TQAAAAABAoepAAAAAAMAP2EAAAAAAtPwYQQAAAACYmgVBAAAAAECu10AAAACAU1NPQQAAAIBX9EVBAAAAAGAN8kAAAAAAI28zQQAAAABougZBAAAAAMLIK0EAAAAA/Lg+QQAAAED+eFBBAAAAAKE4MUFSuB6Fq/u+QArXo3DdEN1AexSuR2GkoEDsUbge9eDXQDMzMzNjB95AKVyPwlWtwEDXo3A9hqL0QM3MzMxEmupA"
+                        "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQAAAAABARu1AAAAAAOCv7EAAAAAA4NXtQAAAAAAQn/NAAAAAALBF9UAAAAAAAGqtQAAAAAAAOrtAAAAAAAAUrUAAAAAAAMK2QAAAAAAACdFAAAAAABxgIUEAAAAAAH6uQAAAAAAAN7JAAAAAAADCDUEAAAAAAHifQAAAAABAS+BAAAAAAADEo0AAAADAuaFRQQAAAAAekmNBAAAAAKAR9EAAAAAAAGisQAAAAAAAs9VAAAAAAKAlIEEAAAAAkG//QAAAAACAQ8lAAAAAADAF9UAAAAAAgP/TQAAAAABAoepAAAAAAMAP2EAAAAAAtPwYQQAAAACYmgVBAAAAAECu10AAAACAU1NPQQAAAIBX9EVBAAAAAGAN8kAAAAAAI28zQQAAAABougZBAAAAAMLIK0EAAAAA/Lg+QQAAAED+eFBBAAAAAKE4MUFSuB6Fq/u+QArXo3DdEN1AexSuR2GkoEDsUbge9eDXQDMzMzNjB95AKVyPwlWtwEDXo3A9hqL0QM3MzMxEmupAw/UoXM8nvkA="
                     },
                     "sizemode": "area",
                     "sizeref": 118672.11333333333,
@@ -13017,12 +13139,12 @@
                 "showlegend": true,
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAIEAAAAAAAAB9QAAAAAAAAHlAAAAAAACAckAAAAAAAMByQAAAAAAAwHRAAAAAAAAAcEAAAAAAAMBzQAAAAAAAAHFAAAAAAAAAdEAAAAAAAAB0QAAAAAAAgH9AAAAAAAAggUAAAAAAAECKQAAAAAAAQItAAAAAAAAwkUAAAAAAAMCDQAAAAAAAQHRAAAAAAABAcEAAAAAAAMBwQAAAAAAAgG1AAAAAAAAAaEAAAAAAAABzQAAAAAAAAHZAAAAAAABAjUAAAAAAAFiNQAAAAAAAQH9AAAAAAABgZEAAAAAAAABYQAAAAAAAAE9AAAAAAAAAPkAAAAAAAAA8QAAAAAAAADlAAAAAAAAAPEAAAAAAAIBCQAAAAAAAADNAAAAAAAAAO0AAAAAAAAAyQAAAAAAAgEBAAAAAAAAAQkAAAAAAAAA/QAAAAAAAADBAAAAAAAAANkAAAAAAAAA2QAAAAAAAACpAAAAAAAAAREAAAAAAAAA2QAAAAAAAAEVAAAAAAAAAQUAAAAAAAABEQAAAAAAAgEdAAAAAAACAQkAAAAAAAAA+QAAAAAAAAEZAAAAAAACASUAAAAAAAIBIQAAAAAAAAD9AAAAAAACAQUAAAAAAAIBGQAAAAAAAgEpAAAAAAACATUAAAAAAAIBGQAAAAAAAgExAAAAAAAAAOUAAAAAAAAA/QAAAAAAAgEdAAAAAAACARkAAAAAAAABLQAAAAAAAwFJAAAAAAACAS0AAAAAAAABEQAAAAAAAAERAAAAAAACAQkAAAAAAAABDQAAAAAAAAERAAAAAAAAAOUAAAAAAAABHQAAAAAAAAEtAAAAAAAAAQEAAAAAAAABPQAAAAAAAAEdA"
+                    "bdata": "AAAAAAAAIEAAAAAAAAB9QAAAAAAAAHlAAAAAAACAckAAAAAAAMByQAAAAAAAwHRAAAAAAAAAcEAAAAAAAMBzQAAAAAAAAHFAAAAAAAAAdEAAAAAAAAB0QAAAAAAAgH9AAAAAAAAggUAAAAAAAECKQAAAAAAAQItAAAAAAAAwkUAAAAAAAMCDQAAAAAAAQHRAAAAAAABAcEAAAAAAAMBwQAAAAAAAgG1AAAAAAAAAaEAAAAAAAABzQAAAAAAAAHZAAAAAAABAjUAAAAAAAFiNQAAAAAAAQH9AAAAAAABgZEAAAAAAAABYQAAAAAAAAE9AAAAAAAAAPkAAAAAAAAA8QAAAAAAAADlAAAAAAAAAPEAAAAAAAIBCQAAAAAAAADNAAAAAAAAAO0AAAAAAAAAyQAAAAAAAgEBAAAAAAAAAQkAAAAAAAAA/QAAAAAAAADBAAAAAAAAANkAAAAAAAAA2QAAAAAAAACpAAAAAAAAAREAAAAAAAAA2QAAAAAAAAEVAAAAAAAAAQUAAAAAAAABEQAAAAAAAgEdAAAAAAACAQkAAAAAAAAA+QAAAAAAAAEZAAAAAAACASUAAAAAAAIBIQAAAAAAAAD9AAAAAAACAQUAAAAAAAIBGQAAAAAAAgEpAAAAAAACATUAAAAAAAIBGQAAAAAAAgExAAAAAAAAAOUAAAAAAAAA/QAAAAAAAgEdAAAAAAACARkAAAAAAAABLQAAAAAAAwFJAAAAAAACAS0AAAAAAAABEQAAAAAAAAERAAAAAAACAQkAAAAAAAABDQAAAAAAAAERAAAAAAAAAOUAAAAAAAABHQAAAAAAAAEtAAAAAAAAAQEAAAAAAAABPQAAAAAAAAEdAAAAAAAAAPkA="
                 },
                 "xaxis": "x",
                 "y": {
                     "dtype": "f8",
-                    "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQAAAAABARu1AAAAAAOCv7EAAAAAA4NXtQAAAAAAQn/NAAAAAALBF9UAAAAAAAGqtQAAAAAAAOrtAAAAAAAAUrUAAAAAAAMK2QAAAAAAACdFAAAAAABxgIUEAAAAAAH6uQAAAAAAAN7JAAAAAAADCDUEAAAAAAHifQAAAAABAS+BAAAAAAADEo0AAAADAuaFRQQAAAAAekmNBAAAAAKAR9EAAAAAAAGisQAAAAAAAs9VAAAAAAKAlIEEAAAAAkG//QAAAAACAQ8lAAAAAADAF9UAAAAAAgP/TQAAAAABAoepAAAAAAMAP2EAAAAAAtPwYQQAAAACYmgVBAAAAAECu10AAAACAU1NPQQAAAIBX9EVBAAAAAGAN8kAAAAAAI28zQQAAAABougZBAAAAAMLIK0EAAAAA/Lg+QQAAAED+eFBBAAAAAKE4MUFSuB6Fq/u+QArXo3DdEN1AexSuR2GkoEDsUbge9eDXQDMzMzNjB95AKVyPwlWtwEDXo3A9hqL0QM3MzMxEmupA"
+                    "bdata": "AAAAAABQpEAAAAAAZKZEQQAAAACwexdBAAAAACfFWEEAAAAA2IYpQQAAAAA0dDNBAAAAAOj8JUEAAAAAQHMjQQAAAABAbwdBAAAAAAA1DUEAAAAA1Lg0QQAAAADwEi9BAAAAACCbGUEAAAAAlJZAQQAAAAB2vU9BAAAAALaWSUEAAAAA+ulCQQAAAAC48iVBAAAAAED+CkEAAAAAQIYBQQAAAACgEApBAAAAAMCDBEEAAAAA0KsbQQAAAACc3ktBAAAAAI2WX0EAAADArxZvQQAAAGCaoGBBAAAAACQmK0EAAAAA2FIOQQAAAADGTSRBAAAAAKD96EAAAAAAQMzRQAAAAABARu1AAAAAAOCv7EAAAAAA4NXtQAAAAAAQn/NAAAAAALBF9UAAAAAAAGqtQAAAAAAAOrtAAAAAAAAUrUAAAAAAAMK2QAAAAAAACdFAAAAAABxgIUEAAAAAAH6uQAAAAAAAN7JAAAAAAADCDUEAAAAAAHifQAAAAABAS+BAAAAAAADEo0AAAADAuaFRQQAAAAAekmNBAAAAAKAR9EAAAAAAAGisQAAAAAAAs9VAAAAAAKAlIEEAAAAAkG//QAAAAACAQ8lAAAAAADAF9UAAAAAAgP/TQAAAAABAoepAAAAAAMAP2EAAAAAAtPwYQQAAAACYmgVBAAAAAECu10AAAACAU1NPQQAAAIBX9EVBAAAAAGAN8kAAAAAAI28zQQAAAABougZBAAAAAMLIK0EAAAAA/Lg+QQAAAED+eFBBAAAAAKE4MUFSuB6Fq/u+QArXo3DdEN1AexSuR2GkoEDsUbge9eDXQDMzMzNjB95AKVyPwlWtwEDXo3A9hqL0QM3MzMxEmupAw/UoXM8nvkA="
                 },
                 "yaxis": "y",
                 "type": "scatter"
@@ -13838,20 +13960,20 @@
                 "name": "Dólar Compra",
                 "orientation": "h",
                 "text": [
-                    "11.05",
-                    "10.23",
-                    "10.56",
-                    "11.25",
+                    "11.14",
+                    "10.25",
+                    "10.58",
+                    "11.34",
                     "",
-                    "11.25",
-                    "10.65",
-                    "10.75",
-                    "11.45"
+                    "11.34",
+                    "10.74",
+                    "10.84",
+                    "11.54"
                 ],
                 "textposition": "inside",
                 "x": {
                     "dtype": "f8",
-                    "bdata": "mpmZmZkZJsD2KFyPwnUkwB+F61G4HiXAAAAAAACAJsAAAAAAAAD4/wAAAAAAgCbAzczMzMxMJcAAAAAAAIAlwGZmZmZm5ibA"
+                    "bdata": "SOF6FK5HJsAAAAAAAIAkwClcj8L1KCXArkfhehSuJsAAAAAAAAD4/65H4XoUribAexSuR+F6JcCuR+F6FK4lwBSuR+F6FCfA"
                 },
                 "y": [
                     "BISA",
@@ -13874,20 +13996,20 @@
                 "name": "Dólar Venta",
                 "orientation": "h",
                 "text": [
-                    "12.00",
-                    "11.88",
-                    "12.03",
+                    "12.07",
                     "12.05",
                     "12.05",
-                    "12.05",
-                    "12.05",
-                    "12.10",
-                    "12.05"
+                    "12.14",
+                    "12.14",
+                    "12.14",
+                    "12.14",
+                    "12.19",
+                    "12.14"
                 ],
                 "textposition": "inside",
                 "x": {
                     "dtype": "f8",
-                    "bdata": "AAAAAAAAKEDD9Shcj8InQI/C9ShcDyhAmpmZmZkZKECamZmZmRkoQJqZmZmZGShAmpmZmZkZKEAzMzMzMzMoQJqZmZmZGShA"
+                    "bdata": "pHA9CtcjKECamZmZmRkoQJqZmZmZGShASOF6FK5HKEBI4XoUrkcoQEjhehSuRyhASOF6FK5HKEDhehSuR2EoQEjhehSuRyhA"
                 },
                 "y": [
                     "BISA",
@@ -14667,7 +14789,7 @@
                 }
             },
             "title": {
-                "text": "<b>Tipo de Cambio por Banco en Bolivia <br> (2026-10-22)</b>",
+                "text": "<b>Tipo de Cambio por Banco en Bolivia <br> (2026-10-23)</b>",
                 "y": 0.95,
                 "x": 0.5,
                 "xanchor": "center"
@@ -14686,14 +14808,14 @@
         }
     },
     "metricas": {
-        "monto_total": "46.67 M",
-        "fecha_monto_transaccionado": "21-Oct",
-        "tco_promedio": 11.75,
-        "fecha_tco": "22-Oct",
-        "val_q1": 11.19,
-        "val_q3": 11.74,
-        "banco_lider": "Banco Ganadero",
-        "tc_min": 8.1,
-        "tc_max": 13.97
+        "monto_total": "32.4 M",
+        "fecha_monto_transaccionado": "22-Oct",
+        "tco_promedio": 11.84,
+        "fecha_tco": "23-Oct",
+        "val_q1": 11.22,
+        "val_q3": 11.77,
+        "banco_lider": "Banco Mercantil Santa Cruz",
+        "tc_min": 7.03,
+        "tc_max": 12.05
     }
 }
